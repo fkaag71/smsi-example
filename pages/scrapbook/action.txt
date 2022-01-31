@@ -1,0 +1,35 @@
+====== Modèle de page pour une action ======
+//FIXME Supprimer le titre//
+
+~~NOCACHE~~
+<data action>
+code[page]: [[]]
+label: FIXME
+pilote: FIXME
+statut [enum::param#actstatut]: E
+avancement: 0
+</data>
+<table ?evt ?levt "Origine">
+?evt is a: event
+[[]] code: ?me
+?evt actions: ?me
+?evt label: ?levt
+</table>
+====== Description ======
+//FIXME Détailler l'action si le label n'y suffit pas //
+
+====== Indicateur d'avancement ======
+//FIXME Méthode de calcul de l'indicateur d'avancement figurant dans le bloc de données //
+====== Critère de clôture ======
+//FIXME Critère à décider dès la création de l'action//
+
+====== Journal ======
+//FIXME A mettre à jour à chaque évaluation de l'action, en y reportant l'avancement courant //
+===== xx/xx/20xx=====
+
+
+
+
+
+
+

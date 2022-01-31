@@ -1,0 +1,31 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Gestion des configurations
+Statut [enum::Param#Statut]: P
+Justification: Traitement de risques
+</data>
+
+===== Description =====
+  * Les configurations des équipements sont remontées quotidiennement sur un serveur de gestion de configuration
+  * Un enregistrement est créé dans le CMDB lors de chaque changement de configuration
+  * La détection d'un changement de configuration sans qu'un ticket rattaché au même matériel soit passé dans l'état réalisé au cours des deux derniers jours provoque une alerte.
+
+===== Preuves =====
+  * Démonstration du CMDB
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

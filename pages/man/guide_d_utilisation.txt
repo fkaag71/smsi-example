@@ -1,0 +1,68 @@
+====== Utilisation du site ======
+Ce site permet de réaliser un outil de gestion d'un système de management de la sécurité de l'information (ou plus généralement, tout système de management basé sur une analyse de risques).
+
+Il se fonde sur l'outil DokuWiki, complété de l'extension Strata qui permet d'associer des données structurées aux pages du Wiki et d'une extension spécifique pour des macros complémentaires spécifiques.
+
+A chaque entité on associe une page du Wiki, dans laquelle un bloc de données permet de définir ses caractéristiques et ses liens aux autres entités.
+
+Lorsqu'on édite une page, on peut avec le bouton "Insert from scrapbook" insérer un modèle de page comportant déjà la structure prévue pour ce type d'entité.
+
+===== Les entités =====
+Les entités disponibles sont:
+  * Des **risques**, c'est à dire la survenue d'un événement redouté, caractérisée par une gravité, un critère de classification (par exemple, Confidentialité) et une liste de scénarios associés.
+  * Des **scénarios**, qui sont des cas concrets pouvant conduire à la survenue d'un ou plusieurs risques. Un scénario est caractérisé à des fins documentaires et de recherche par une source, un vecteur et un mode de défaillance. Il comporte également une liste de mesures pouvant servir à en réduire la vraisemblance. Les vraisemblances initiale, courante et future du scénarios sont évaluées en fonction des mesures mises en œuvre pour y faire face.
+  * Des **mesures** mises en œuvre pour réduire la vraisemblance des scénarios. Une mesure peut être à l'état //Effective//, //Programmée// ou //Non prévue//. Une mesure effective permet de réduire la vraisemblance courante d'un ou plusieurs scénarios, une mesure programmée de réduire sa vraisemblance future.
+  * Des **événements**, qui sont le fait déclencheur d'une ou plusieurs actions. Ce sont typiquement des réunions d'un comité de pilotage, mais aussi des audits, des tests d'intrusion, des revues d'incidents, etc.
+  * Des **actions** décidées lors des événements, qui peuvent être la mise en place d'une mesure ou d'autres actions portant sur la politique de sécurité. Une action peut être dans l'un des états //Programmée//, //En cours//, //Suspendue//, //Terminée// ou //Clôturée//, la clôture impliquant l'appréciation de son efficacité par l'autorité de pilotage.
+
+===== Modèles de page =====
+Des modèles de page sont disponibles pour :
+  * les risques
+  * les scénarios
+  * les mesures
+  * les actions
+
+Les données de la page sont contenues dans le bloc <data> en début de page, éventuellement complété par un bloc <data> complémentaire en fin de page. Les requêtes servant à afficher les données liées sont pré-constituées et n'ont a priori pas besoin d'être modifiées, seules les zones textuelles (descriptions, justifications, preuves) doivent être modifiées.
+
+Quelques pages de rapport standard sont également systématiquement fournies:
+  * Listes des risques, des scénarios et des mesures
+  * Tableau des risques présents et futurs, présentés en fonction de leur gravité et de leur vraisemblance.
+===== Paramétrage =====
+Les requêtes dans les modèles de page supposent l'existence d'une page Param comportant un certain nombre de tables de paramétrage, qui peuvent être éditées pour ajuster:
+  * les critères pouvant qualifier un risque
+  * L'échelle de gravité des risques
+  * L'échelle de vraisemblance des scénarios
+  * Les limites et couleurs des différentes zones du tableau des risques
+  * Les modes, sources et vecteurs des différents scénarios
+===== Macros spéciales =====
+Des balises spécifiques ont été créées pour les besoins du site.
+<code>
+~~RISKTABLE~~
+</code>
+Affiche la grille des risques en fonction de leur vraisemblance et de leur gravité.
+
+Les états courants et futurs des risques sont représentés respectivement en bleu et en vert.
+
+Chaque vignette de risque est cliquable pour atteindre la page de description du risque correspondant.
+
+<code>
+~~RISKINDICATORS~~
+</code>
+Affiche un tableau d'indicateurs pour chaque critère de risque:
+  * Nombre de risques pris en compte
+  * Niveau de risque maximum, courant et futur
+  * Moyenne des niveaux de risque, courante et future
+  * Moyenne quadratique des niveaux de risque, courante et future
+Ces données peuvent alimenter la réunion de suivi.
+
+<code>
+~~RISKCHECK~~
+</code>
+Si elle est placée dans la page d'un scénario, indique les erreurs de cohérence:
+  * Hausse de la vraisemblance au fil du temps
+  * Baisse de vraisemblance courante alors qu'aucune mesure n'est effective
+  * Baisse de vraisemblance future alors qu'aucune mesure n'est programmée
+
+Dans la page d'un risque, liste les scénarios associées au risque pour lesquels un problème de cohérence existe.
+
+Dans toute autre page, liste tous les scénarios pour lesquels un problème de cohérence existe.

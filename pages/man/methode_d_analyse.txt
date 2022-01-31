@@ -1,0 +1,42 @@
+====== Méthode d'analyse des risques ======
+La méthode d'analyse des risques est dérivée de EBIOS 2010.
+
+S'agissant d'un système de management de la sécurité de l'information, on commence à identifier les informations que l'on cherche à protéger. Ces informations sont regroupées en classes homogènes en fonction des impacts que leur altération ou leur divulgation pourrait avoir sur les missions de l'organisme. Par exemple, on pourrait caractériser les données personnelles non sensibles, les données personnelles sensibles, les données financières, les paramétrages, les données sauvegardées, etc.
+
+En terminologie EBIOS, ces données sont les **biens essentiels**.
+
+Pour chacun des critères traditionnels de la sécurité de l'information : 
+  * Disponibilité
+  * Intégrité
+  * Confidentialité
+  * Preuve
+on évalue l'impact sur les missions (et sur les personnes concernées, dans le cas de données personnelles) de la perte de ce critère sur chaque classe de données. Ces pertes sont les **événements redoutés**, et l'impact est coté selon une échelle de **gravité**.
+
+La question est alors, pour chaque événement redouté, d'évaluer sa **vraisemblance**. Pour cela, on va considérer un certain nombre de scénarios, et pour chacun d'entre eux :
+  * Les événements redoutés qui peuvent en découler.
+  * La vraisemblance de ce scénario, estimée dans trois contextes :
+    * De manière théorique, en l'absence de toute mesure destinée à éviter sa survenue : ** vraisemblance initiale **.
+    * Compte tenu des mesures actuellement en vigueur : ** vraisemblance courante **
+    * Compte tenu de mesures planifiées : ** vraisemblance future **
+
+Pour aider à l'identification de scénario, on s'appuie sur des listes élaborées a priori :
+  * De **sources** possibles : un intrus, du personnel, un événement naturel, etc...
+  * De **vecteurs** possibles, c'est à dire l'élément matériel ou immatériel sur lequel porte le scénario : des serveurs, des réseaux, des procédures (arnaque au président), des locaux, des employés, etc.
+  * De **modes de défaillance** : mauvais usage, dégradation, perte, saturation des capacités, etc.
+
+Ces listes permettent de guider la recherche, mais aussi a posteriori de retrouver lors d'un incident si un scénario similaire a celui qui s'est produit avait été envisagé dans l'analyse, et de la réactualiser au besoin.
+
+Un équilibre doit être trouvé dans la description des scénarios : trop précis ils deviennent innombrables, trop généraux ils n'ont plus de signification. Le mieux est de pouvoir avoir une description assez générale illustrée par un ou plusieurs exemples concrets.
+
+Un **risque** est un événement redouté associé à un ou plusieurs scénarios. 
+
+La vraisemblance du risque est estimée à partir de la vraisemblance des scénarios. Plusieurs méthodes de calcul existent, notamment pour aggraver la vraisemblance d'un risque comportant de nombreux scénarios de survenue, mais en définitive le simple choix de prendre la vraisemblance maximum parmi tous les scénarios suffit en pratique à identifier les risques à traiter en priorité.
+
+Le **[[niveau de risque]]** s'obtient en croisant sa gravité et sa vraisemblance. Il est d'usage de construire et d'exhiber une matrice donnant le niveau de risque en fonction de la gravité et de la vraisemblance, mais on peut aussi simplement multiplier le rang de la gravité par celui de la vraisemblance pour obtenir un indicateur chiffré. On le complète par des seuils de niveau qui permettent d'orienter la décision de traitement.
+
+Quatre options sont possible pour le **traitement d'un risque** :
+  * l'**acceptation**. Elle est de droit si le niveau de risque est inférieur à un seuil convenu, doit être prise par un responsable et documentée sinon.
+  * la **mitigation** par l'adoption d'une ou plusieurs **mesures** visant à réduire la vraisemblance des scénarios qui conduisent au risque. Ces mesures constituent le volet opérationnel de la politique de sécurité.
+  * le **report contractuel**, que ce soit vers un client (protection des mots de passe)ou un sous-traitant (recours à un hébergeur extérieur).
+  * l'**évitement**, c'est à dire l'abandon du traitement ou de l'usage dans lequel ce risque pourrait se manifester.
+

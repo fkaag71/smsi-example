@@ -1,0 +1,60 @@
+~~NOCACHE~~
+<data scn>
+Label: Attribution de droits applicatifs excessifs à un compte identifié
+VC [enum::Param#Vraisemblance]: 3
+VF [enum::Param#Vraisemblance]: 2
+</data>
+~~RISKCHECK~~
+====== Description ======
+Un administrateur technique ou fonctionnel attribue des droits excessifs à un compte.
+===== Exemples =====
+  * Attribution de commodité ou de complaisance
+  * Sensibilisation insuffisante d'un personnel ou d'un fournisseur
+  * Granularité des autorisations trop faible
+  * Erreur de manipulation
+===== Justification des vraisemblances =====
+  * En l'absence d'un processus formalisé de gestion des droits, ce scénario serait __probable__
+  * La formalisation du processus et la vérification régulière des habilitations le rendent __peu probable__
+  * La documentation de la procédure d'exploitation et l'affirmation d'une sanction possible le rendent __très peu probable__
+
+===== Mesures effectives =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: E
+</table>
+===== Mesures programmées =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: P
+</table>
+===== Autres mesures possibles =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: N
+</table>
+====== Risques liés ======
+<table ?risk "Risque" ?label "Libellé">
+?risk is a: risk
+[[]] me: ?me
+?risk scenarios: ?me
+?risk label: ?label
+</table>
+==== Complément de données ====
+<data>
+-- Cet auto-lien est nécessaire pour certaines requêtes
+me[page]: [[]]
+Source [enum::param#source]: ADMIN_MLD
+Vecteur[enum::param#vecteur]: ORG
+Mode [enum::param#mode]: MOD
+V0 [enum::Param#Vraisemblance]: 4
+Mesures [ref]*: a5.03,a5.15, a5.16
+Mesures [ref]*: a5.20, a5.22, a5.37, a6.03, a6.04
+Mesures [ref]*: a8.03, a8.26
+
+</data>
+
+
+

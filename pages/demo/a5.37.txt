@@ -1,0 +1,33 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Procédures d'exploitation documentées
+Statut [enum::Param#Statut]: E
+Justification: Traitement de risques
+</data>
+
+===== Description =====
+  * Les procédures d'exploitation sont disponibles en ligne
+  * Les rapports d'intervention doivent référencer la ou les procédures d'exploitation utilisées
+  * Les interventions pour lesquelles une procédure d'exploitation n'existe pas font l'objet d'une escalade avec un ticket d'incident.
+
+===== Preuves =====
+  * Procédures d"exploitation
+  * Rapports d'intervention de routine
+  * Tickets d'escalade
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

@@ -1,0 +1,30 @@
+====== Modèle de page pour une mesure ======
+//FIXME  Supprimer la ligne de titre //
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: FIXME
+Statut [enum::Param#Statut]: N
+</data>
+
+===== Description =====
+//FIXME Ici la réalisation effectivement faite de la mesure, de manière la plus concrète possible //
+
+===== Preuves =====
+//FIXME Liens vers les preuves : politiques ou procédures, enregistrements associés//
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

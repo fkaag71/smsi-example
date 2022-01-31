@@ -1,0 +1,36 @@
+====== Modèle de page pour un risque ======
+//FIXME Retirer la ligne de titre//
+~~NOCACHE~~
+<data risk>
+Label: FIXME
+Gravité [enum::param#gravite]:
+</data>
+~~RISKCHECK~~
+====== Atteinte ======
+//FIXME Préciser ici le risque si le label ne suffit pas à le caractériser //
+====== Impacts possibles ======
+//FIXME Justification de la gravité//
+====== Scénarios liés ======
+<table ?scn "SCN" ?s_label "Libellé" ?v0 "Initial" ?vc "Courant" ?vf "Futur">
+[[]] scenarios: ?scn
+?scn v0: ?v0 [enum::param#vraisemblance]
+?scn vc: ?vc [enum::param#vraisemblance]
+?scn vf: ?vf [enum::param#vraisemblance]
+?scn label: ?s_label
+sort {
+ ?vc(desc) 
+ ?vf(desc)
+}
+ui {
+  sort: default
+  filter: select
+  Libellé{
+    filter: text
+  }
+}
+</table>
+==== Complément de données ====
+<data>
+Critère [enum::param#Critere]:
+Scenarios [page]*:
+</data>

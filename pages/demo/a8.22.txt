@@ -1,0 +1,29 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Cloisonnement des réseaux
+Statut [enum::Param#Statut]: P
+Justification: Traitement de risques
+</data>
+
+===== Description =====
+Deux étages de pare-feux, de technologies différentes, isolent les machines de stockage d'Internet.
+
+===== Preuves =====
+  * Schéma d'architecture
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

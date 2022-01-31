@@ -1,0 +1,33 @@
+~~NOCACHE~~
+<data risk>
+Label: Des DSCP ciblées ou en masse sont divulguées
+Gravité [enum::param#gravite]: 4
+</data>
+====== Atteinte ======
+FIXME
+====== Impacts possibles ======
+Le préjudice pour les personnes concernées est de niveau critique.
+====== Scénarios liés ======
+<table ?scn "SCN" ?s_label "Libellé" ?v0 "Initial" ?vc "Courant" ?vf "Futur">
+[[]] scenarios: ?scn
+?scn v0: ?v0 [enum::param#vraisemblance]
+?scn vc: ?vc [enum::param#vraisemblance]
+?scn vf: ?vf [enum::param#vraisemblance]
+?scn label: ?s_label
+sort {
+ ?vc(desc) 
+ ?vf(desc)
+}
+ui {
+  sort: default
+  filter: select
+  Libellé{
+    filter: text
+  }
+}
+</table>
+==== Complément de données ====
+<data>
+Critère [enum::param#Critere]: C
+Scenarios [page]*: sc001,sc002, sc003, sc004
+</data>

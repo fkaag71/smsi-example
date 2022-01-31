@@ -1,0 +1,29 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Inventaire de l'information et des actifs associés
+Statut [enum::Param#Statut]: E
+Justification: Traitement de risques
+</data>
+
+===== Description =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

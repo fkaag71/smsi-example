@@ -1,0 +1,60 @@
+~~NOCACHE~~
+<data scn>
+Label: Un support physique de données n'est plus sous contrôle.
+VC [enum::Param#Vraisemblance]: 3
+VF [enum::Param#Vraisemblance]: 2
+</data>
+~~RISKCHECK~~
+====== Description ======
+Un support de données n'est plus sous le contrôle de l'organisation
+===== Exemples =====
+  * Vol sur site
+  * Perte ou vol lors d'un transport
+  * Sauvegardes hors zone de contrôle
+  * Mise au rebut sans effacement
+  * Copie de données de production en test
+===== Justification des vraisemblances =====
+En l'absence de toute mesure, ce scénario serait possible.
+
+Le stockage des sauvegardes dans l'enceinte sécurisée le rend peu probable.
+
+Une politique effective de transfert le rendrait très peu probable.
+===== Mesures effectives =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: E
+</table>
+===== Mesures programmées =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: P
+</table>
+===== Autres mesures possibles =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: N
+</table>
+====== Risques liés ======
+<table ?risk "Risque" ?label "Libellé">
+?risk is a: risk
+[[]] me: ?me
+?risk scenarios: ?me
+?risk label: ?label
+</table>
+==== Complément de données ====
+<data>
+-- Cet auto-lien est nécessaire pour certaines requêtes
+me[page]: [[]]
+Source [enum::param#source]: EXT_LOW_MLV
+Vecteur[enum::param#vecteur]: MAT_STOR
+Mode [enum::param#mode]: PTE
+V0 [enum::Param#Vraisemblance]: 4
+Mesures [ref]*: a7.01,a7.02, a7.04, a7.09, a7.10, a7.14
+Mesures [ref]*: a8.10, a8.24, a8.33
+</data>
+
+
+

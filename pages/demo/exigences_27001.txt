@@ -1,0 +1,38 @@
+====== Obligations 27001 ======
+Cette page indique où se trouve les éléments de procédure liés à chaque obligation de l'ISO 27001. Ce n'est qu'un ensemble de références, les réponses explicites sont dans les documents ou les pages pointés.
+
+===== 4 - Contexte de l'organisation =====
+==== 4.1 - Compréhension de l'organisation et de ce contexte ====
+==== 4.2 - Compréhension des besoins et attentes des parties intéressées ====
+==== 4.3 - Domaine d'application du SMSI ====
+==== 4.4 - Existence du SMSI ====
+===== 5 - Leadership =====
+==== 5.1 - Leadership et engagement ====
+==== 5.2 - Politique ====
+==== 5.3 - Rôles et responsabilités ====
+===== 6 - Planification =====
+==== 6.1 - Actions liées aux risques et opportunités ====
+=== 6.1.1 - Généralités ===
+=== 6.1.2 - Appréciation des risques ===
+=== 6.1.3 - Traitement des risques ===
+==== 6.2 - Objectifs de sécurité de l'information ====
+===== 7 - Support =====
+==== 7.1 - Ressources ====
+==== 7.2 - Compétence ====
+==== 7.3 - Sensibilisation ====
+==== 7.4 - Communication ====
+==== 7.5 - Informations documentées ====
+=== 7.5.1 - Généralités ===
+=== 7.5.2 - Création et mise à jour ===
+=== 7.5.3 - Maîtrise des informations documentées ===
+===== 8 - Fonctionnement =====
+==== 8.1 - Planification et contrôle opérationnel ====
+==== 8.2 - Appréciation des risques ====
+==== 8.3 - Traitement des risques ====
+===== 9 - Évaluation des performances =====
+==== 9.1 - Surveillance, mesure, analyse et évaluation ====
+==== 9.2 - Audit interne ====
+==== 9.3 - Revue de direction ====
+===== 10 - Amélioration =====
+==== 10.1 - Non-conformité et actions correctives ====
+==== 10.2 - Amélioration continue ====

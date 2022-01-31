@@ -1,0 +1,65 @@
+====== Modèle de page pour un scénario ======
+//FIXME Supprimer cette ligne et le titre//
+~~NOCACHE~~
+<data scn>
+Label: FIXME
+VC [enum::Param#Vraisemblance]:
+VF [enum::Param#Vraisemblance]:
+</data>
+~~RISKCHECK~~
+====== Description ======
+//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+===== Exemples =====
+//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+===== Justification des vraisemblances =====
+//FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
+===== Mesures effectives =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: E
+sort {
+  ?mes(asc)
+  }
+</table>
+===== Mesures programmées =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: P
+sort {
+  ?mes(asc)
+  }
+</table>
+===== Autres mesures possibles =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: N
+sort {
+  ?mes(asc)
+  }
+</table>
+====== Risques liés ======
+<table ?risk "Risque" ?label "Libellé">
+?risk is a: risk
+[[]] me: ?me
+?risk scenarios: ?me
+?risk label: ?label
+sort {
+  ?risk(asc)
+  }
+</table>
+==== Complément de données ====
+<data>
+-- Cet auto-lien est nécessaire pour certaines requêtes
+me[page]: [[]]
+Source [enum::param#source]:
+Vecteur[enum::param#vecteur]:
+Mode [enum::param#mode]:
+V0 [enum::Param#Vraisemblance]: 
+Mesures [ref]*: 
+</data>
+
+
+

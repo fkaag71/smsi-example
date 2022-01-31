@@ -1,0 +1,21 @@
+====== Liste des risques ======
+~~NOCACHE~~
+<table ?risk "Risque" ?label "Libellé" ?crit "Crit." ?grav "Gravité" >
+?risk is a: risk
+?risk label: ?label
+?risk gravité: ?grav [enum::param#gravite]
+optional {
+?risk critère: ?crit
+}
+sort {
+ ?risk (asc)
+}
+ui {
+ filter: select
+ sort: default
+ Libellé {
+   filter: text
+  }
+}
+</table>
+

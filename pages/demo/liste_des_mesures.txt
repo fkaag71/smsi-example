@@ -1,0 +1,23 @@
+====== Mesures de la Politique de Sécurité ======
+Ces mesures sont organisées conformément à l'annexe A de l'ISO 27001:2022.
+
+Pour la plupart, elles sont issues de cette annexe, mais des mesures spécifiques peuvent également y avoir été ajoutées.
+
+~~NOCACHE~~
+<table ?code ?label ?statut ?justification>
+?code is a: mes
+?code label: ?label
+?code statut: ?statut
+optional {
+?code justification: ?justification
+}
+sort {
+  ?code (asc)
+ }
+ui {
+ filter: text
+ Statut{
+  filter: select
+ }
+}
+</table>

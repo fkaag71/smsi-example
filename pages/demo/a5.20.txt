@@ -1,0 +1,29 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Sécurité de l'information dans les accords conclus avec les fournisseurs
+Statut [enum::Param#Statut]: N
+Justification: Pas de fournisseurs critiques identifiés
+</data>
+
+===== Description =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

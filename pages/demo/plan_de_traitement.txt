@@ -1,0 +1,14 @@
+====== Plan de traitement des risques ======
+Mesures programmées pour réduire les risques comme indiqué dans le [[tableau des risques]].
+
+<table ?mes "#M" ?lmes "Mesure" ?risk "#R" ?lrisk "Risque">
+?risk is a: risk
+?risk label: ?lrisk
+?risk scenarios: ?scn
+?scn mesures: ?mes
+?mes label: ?lmes
+?mes statut: P
+sort {
+ ?mes (asc)
+}
+</table>

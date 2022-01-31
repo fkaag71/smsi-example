@@ -1,0 +1,13 @@
+====== Indicateurs ======
+===== Niveaux courants de risque =====
+~~NOCACHE~~
+~~RISKINDICATORS~~
+===== Incidents de sécurité =====
+Par niveau de gravité de l'événement redouté.
+===== Non-conformités =====
+Majeure/Mineure/Remarque
+===== Vulnérabilités =====
+Test d'intrusion
+===== Indicateurs propres aux mesures =====
+
+

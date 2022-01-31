@@ -1,0 +1,28 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Chaîne d'approvisionnement des produits et des services informatiques
+Statut [enum::Param#Statut]: N
+</data>
+
+===== Description =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

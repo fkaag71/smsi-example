@@ -1,0 +1,13 @@
+====== Calcul du niveau de risque ======
+Dans cette implémentation, le niveau de risque est déterminé en multipliant sa vraisemblance par sa gravité.
+
+La vraisemblance retenue pour le risque est celle du scénario le plus vraisemblable qui y conduit. 
+
+Dans des versions antérieures, on tentait de construire une vraisemblance cumulée par diverses méthodes (moyenne quadratique, somme logarithmique, etc.) En définitive, c'est une approche qui appauvrit l'analyse car on en vient à créer des scénarios très génériques pour ne pas augmenter le niveau de risque apparent. Le choix de la vraisemblance maximum est suffisant pour identifier les priorités de traitement.
+
+Pour faciliter la lecture, des plages de niveaux sont définies, qui permettent de remettre des libellés sur les valeurs numériques ainsi obtenues.
+
+Par exemple, pour une échelle à 5 niveaux de vraisemblance et 5 niveaux de gravité, on peut définir trois plages:
+  * Acceptable de 0 à 4
+  * A justifier de 4 à 9
+  * Traitement obligatoire au delà de 10

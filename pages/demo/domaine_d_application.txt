@@ -1,0 +1,12 @@
+====== Domaine d'application ======
+===== Informations à protéger =====
+FIXME
+===== Critères de sécurité =====
+  * Disponibilité
+  * Intégrité
+  * Confidentialité
+  * Auditabilité
+===== Intervenants =====
+FIXME
+===== Moyens et supports ===== 
+FIXME

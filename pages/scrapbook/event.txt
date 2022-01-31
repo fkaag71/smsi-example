@@ -1,0 +1,21 @@
+====== Modèle de page pour un événement ======
+//FIXME Supprimer la ligne de titre //
+~~NOCACHE~~
+<data event>
+Label: <FIXME>
+Date [date]: xx/xx/20xx
+</data>
+
+====== Description ======
+//FIXME Détail de l'événement (réunion, audit,etc.) si le label n'y suffit pas//
+
+====== Actions liées ======
+<table ?act ?label>
+[[]] actions: ?act
+?act label: ?label
+</table>
+
+<data>
+-- Lister ici les actions décidées lors de l'événement
+Actions[page]* :
+</data>
