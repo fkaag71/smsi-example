@@ -2,7 +2,7 @@
 ===== Gravité des événements redoutés =====
 On considère pour chaque type d'information les effets du non respect de l'un des critères de la sécurité de l'information : disponibilité, intégrité ou confidentialité.
 
-L'échelle de gravité est celle de la {{:group:lnf:fiche9.pdf |fiche 9 de la HAS}}
+L'échelle de gravité est celle de la {{fiche9.pdf |fiche 9 de la HAS}}
 <data #Gravité>
 Mineur: 1
 Significatif: 2
@@ -55,7 +55,9 @@ Détournement de l'usage prévu: USG
 <data #Source>
 Usager maladroit: USG_MLD
 Administrateur maladroit: ADMIN_MLD
-Intrus avec des moyens limités: EXT_LOW_MLV
+Intrus avec des capacités faibles: EXT_LOW_MLV
+Intrus avec des capacités limitées: EXT_MID_MLV
+Intrus avec des capacités élevées: EXT_HI_MLV
 </data>
 ===== Vecteurs de défaillance =====
 <data #Vecteur>
@@ -70,7 +72,15 @@ Réseaux en général: RSX
 </data>
 ===== Statut des mesures =====
 <data #Statut>
+Initial: I
+Sélectionnée : S
 Effective: E
 Programmée: P
 Non retenue: N
+</data>
+===== Types des mesures =====
+<data #MType>
+Prévention: P
+Détection: D
+Correction: C
 </data>

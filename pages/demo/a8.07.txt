@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Mesures contre les logiciels malveillants
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

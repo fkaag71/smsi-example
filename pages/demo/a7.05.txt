@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Protection contre les menaces extérieures et environnementales
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

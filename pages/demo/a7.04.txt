@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Surveillance de la sécurité physique
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Accès aux codes sources des programmes
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

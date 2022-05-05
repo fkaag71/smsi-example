@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Mise ou rebut ou réutilisation des supports
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

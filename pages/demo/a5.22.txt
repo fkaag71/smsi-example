@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Surveillance, revue et gestion des changements des services des fournisseurs
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

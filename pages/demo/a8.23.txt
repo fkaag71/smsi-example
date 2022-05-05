@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Filtrage des accès Internet
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

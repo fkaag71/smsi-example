@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Continuité de la sécurité de l'information
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Sécurité de l'information pour les services en nuage
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Protection des systèmes d'information durant les tests d'audit
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

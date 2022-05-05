@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Conformité avec les politiques, les règles et les normes de sécurité de l'information
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

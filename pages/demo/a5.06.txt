@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Relations avec les groupes de travail spécialisés
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

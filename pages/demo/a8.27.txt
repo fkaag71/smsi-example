@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Principes d'ingénierie de la sécurité des systèmes
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Chaîne d'approvisionnement des produits et des services informatiques
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

@@ -11,5 +11,5 @@ Elle découle de l'analyse des risques portant sur la structure. Les mesures qu'
   * [[Domaine d'application]]
   * [[Organisation et gouvernance]]
   * [[Analyse des risques]]
-  * [[Liste des mesures]]
+  * [[declaration_d_applicabilite|Déclaration d'applicabilité]]
   * [[Indicateurs]]

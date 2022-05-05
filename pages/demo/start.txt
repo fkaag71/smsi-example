@@ -3,5 +3,5 @@
   * [[Exigences 27001]]
   * [[Exigences HDS]]
   * [[Politique de sécurité]]
-  * [[Liste des mesures|Déclaration d'applicabilité]]
+  * [[declaration_d_applicabilite|Déclaration d'applicabilité]]
   * [[Analyse des risques]]

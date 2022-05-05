@@ -31,10 +31,12 @@ sort {
   }
 </table>
 ===== Autres mesures possibles =====
-<table ?mes "Mesure" ?label "Libellé">
+<table ?mes "Mesure" ?label "Libellé" ?statut[enum::Param#Statut] >
 [[]] mesures: ?mes
 ?mes label: ?label
-?mes statut: N
+?mes statut: ?statut
+?statut != E
+?statut != P
 sort {
   ?mes(asc)
   }
@@ -53,7 +55,7 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum::param#source]: PER-ADMIN-MLD
+Source [enum::param#source]: ADMIN_MLD
 Vecteur[enum::param#vecteur]: LOG
 Mode [enum::param#mode]: MOD
 V0 [enum::Param#Vraisemblance]: 5

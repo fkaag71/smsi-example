@@ -27,3 +27,8 @@ FIXME
 ?risk label: ?label
 </table>
 
+==== Complément de données ====
+<data>
+Type de mesure [enum::param#MType]*: P
+Critères visés [enum::param#Critere]*: D,I,C
+</data>

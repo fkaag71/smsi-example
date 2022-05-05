@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Protection de la vie privée et des données à caractère personnel
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

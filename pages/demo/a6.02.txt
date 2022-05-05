@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Termes et conditions d'embauche
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

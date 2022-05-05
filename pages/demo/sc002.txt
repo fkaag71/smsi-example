@@ -32,10 +32,15 @@ Une politique effective de transfert le rendrait très peu probable.
 ?mes statut: P
 </table>
 ===== Autres mesures possibles =====
-<table ?mes "Mesure" ?label "Libellé">
+<table ?mes "Mesure" ?label "Libellé" ?statut[enum::Param#Statut] >
 [[]] mesures: ?mes
 ?mes label: ?label
-?mes statut: N
+?mes statut: ?statut
+?statut != E
+?statut != P
+sort {
+  ?mes(asc)
+  }
 </table>
 ====== Risques liés ======
 <table ?risk "Risque" ?label "Libellé">

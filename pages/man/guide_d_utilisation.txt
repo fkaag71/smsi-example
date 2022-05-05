@@ -11,7 +11,11 @@ Lorsqu'on édite une page, on peut avec le bouton "Insert from scrapbook" insér
 Les entités disponibles sont:
   * Des **risques**, c'est à dire la survenue d'un événement redouté, caractérisée par une gravité, un critère de classification (par exemple, Confidentialité) et une liste de scénarios associés.
   * Des **scénarios**, qui sont des cas concrets pouvant conduire à la survenue d'un ou plusieurs risques. Un scénario est caractérisé à des fins documentaires et de recherche par une source, un vecteur et un mode de défaillance. Il comporte également une liste de mesures pouvant servir à en réduire la vraisemblance. Les vraisemblances initiale, courante et future du scénarios sont évaluées en fonction des mesures mises en œuvre pour y faire face.
-  * Des **mesures** mises en œuvre pour réduire la vraisemblance des scénarios. Une mesure peut être à l'état //Effective//, //Programmée// ou //Non prévue//. Une mesure effective permet de réduire la vraisemblance courante d'un ou plusieurs scénarios, une mesure programmée de réduire sa vraisemblance future.
+  * Des **mesures** mises en œuvre pour réduire la vraisemblance des scénarios. Une mesure peut être dans l'un des états suivants:
+    * //Initial// : La mesure n'a pas encore été évaluée ni documentée
+    * //Sélectionnée// : La mesure est retenue pour être évaluée et documentée
+    * //Effective// : permet de réduire la vraisemblance courante d'un ou plusieurs scénarios, 
+    * //Programmée// : permet de réduire leurs vraisemblances futures.
   * Des **événements**, qui sont le fait déclencheur d'une ou plusieurs actions. Ce sont typiquement des réunions d'un comité de pilotage, mais aussi des audits, des tests d'intrusion, des revues d'incidents, etc.
   * Des **actions** décidées lors des événements, qui peuvent être la mise en place d'une mesure ou d'autres actions portant sur la politique de sécurité. Une action peut être dans l'un des états //Programmée//, //En cours//, //Suspendue//, //Terminée// ou //Clôturée//, la clôture impliquant l'appréciation de son efficacité par l'autorité de pilotage.
 

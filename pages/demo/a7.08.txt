@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Emplacement et protection des matériels
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

@@ -1,4 +1,4 @@
-====== Mesures de la Politique de Sécurité ======
+====== Déclaration d'Applicabilité ======
 Ces mesures sont organisées conformément à l'annexe A de l'ISO 27001:2022.
 
 Pour la plupart, elles sont issues de cette annexe, mais des mesures spécifiques peuvent également y avoir été ajoutées.
@@ -12,28 +12,20 @@ group {
 }
 </table>
 
-<table ?code ?label ?statut ?scn@count[text] "#scn" ?vc@max[enum::Param#Vraisemblance] "VcMax">
+<table ?code ?label ?statut ?justification>
 ?code is a: mes
 ?code label: ?label
 ?code statut: ?statut
 optional {
-?scn mesures: ?code
-?scn vc: ?vc
+?code justification: ?justification
 }
-group {
-   ?code
-   ?label
-   ?statut
-   }
+
 sort {
   ?code (asc)
  }
 ui {
  filter: text
  Statut{
-  filter: select
- }
- VcMax{
   filter: select
  }
 }

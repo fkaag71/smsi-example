@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Exigences de sécurité des applications
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====

@@ -2,7 +2,7 @@
 <data mes>
 Code[page]: [[]]
 Label: Appréciation des événements liés à la sécurité de l'information et prise de décision
-Statut [enum::Param#Statut]: N
+Statut [enum::Param#Statut]: I
 </data>
 
 ===== Description =====
