@@ -1,21 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Travail à distance
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: ACT,PROT,PHYS,SYST,PROD
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+  * Sécurité physique du site de travail distant
+  * Règles de sécurité (mise sous clé, bureau propre, destruction copies papier, etc.)
+  * Sécurité des communications (VPN)
+  * Protection contre l'accès par d'autres personnes, à domicile ou dans les lieux publics
+  * Protection en cas de connexion à un réseau public (pare-feu local)
+
+
 
 ===== Mise en œuvre  =====
 FIXME

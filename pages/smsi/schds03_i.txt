@@ -1,16 +1,19 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
 ~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Dégradation d'un flux d'information interne ou externe
 VC [enum:::param:risk#Vraisemblance]: 5
 VF [enum:::param:risk#Vraisemblance]: 5
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Dégradation d'un flux d'information interne ou externe sous le contrôle de l'hébergeur.
 ===== Exemples =====
+  * Saturation d'un lien sous-dimensionné
+  * Téléchargements massifs illicites
+  * Attaque par déni de service
+  * Utilisation de câbles de catégorie inadaptée
+  * Faux positifs d'un système de prévention d'intrusion (IPS)
 //FIXME - Les exemples permettent de mieux illustrer un scénario générique//
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
@@ -57,12 +60,12 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source] * : ADMIN_MLD, MAT, EXT_MID_MLV
+Vecteur[enum:::param:risk#Vecteur]: RSX
+Mode [enum:::param:risk#Mode]*: DET, DEP
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
-</data>
+Mesures [ref]*: a5.10, a5.29, a6.03, a7.03, a8.16, a8.20, a8.21, a8.22, a8.23, a8.31, a8.34
+</data>a5.37, 
 
 
 

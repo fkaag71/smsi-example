@@ -1,5 +1,6 @@
 ====== Modèle de page pour un risque ======
-//FIXME Retirer la ligne de titre//
+~~NODATA~~
+//FIXME Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data risk>
 Label: FIXME

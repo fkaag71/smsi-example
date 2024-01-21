@@ -1,0 +1,42 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Sécurité de l'information dans la gestion de projet
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: GOUV
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+==== Attendus =====
+  * L'impact du projet sur les risques de sécurité de l'information et leur traitement est évalué dès le début du projet.
+    * Nouvelles exigences de sécurité du fait de nouvelles fonctions
+    * Nouvelles classes d'information
+    * Nouveaux scénarios pouvant conduire à la réalisation d'un événement redouté
+  * L'avancement du traitement des risques est évalué, son efficacité en fin de projet évaluée.
+  * Les risques temporaires liés à l'exécution du projet (communication, attribution de droits, déploiement, données de test, formation des utilisateurs, etc.) sont également pris en compte.
+
+===== Mise en œuvre =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

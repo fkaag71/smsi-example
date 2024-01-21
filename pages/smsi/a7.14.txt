@@ -1,21 +1,19 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Mise ou rebut ou réutilisation sécurisée des matériels
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: PHYS,ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+Un processus formel d'effacement sécurisé ou de destruction est appliqué avant toute sortie de matériel.
 
 ===== Mise en œuvre  =====
 FIXME

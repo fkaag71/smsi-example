@@ -1,21 +1,21 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Filtrage Internet
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: SYST,PROD
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+  * Blocage des accès aux sites malveillants
+  * Blocage des accès aux sites comportant des contenus illégaux
+  * Formation des utilisateurs à la navigation sécurisée
 
 ===== Mise en œuvre  =====
 FIXME

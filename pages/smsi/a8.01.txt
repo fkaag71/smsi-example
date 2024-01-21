@@ -1,0 +1,48 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Terminaux finaux des utilisateurs
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier 
+Capacités [enum:::param:mes#Capacite] *: ACT,PROT
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+  * Les terminaux finaux des utilisateurs sont enregistrés
+  * Le type d'information que les terminaux finaux peuvent traiter est défini
+  * Les exigences de protection physique sont exprimées
+  * L'installation de logiciels est restreinte
+  * Le système d'exploitation, les logiciels et antivirus sont tenus à jour
+  * Les règles de connexion à des réseaux publics sont définies (pare-feu personnel, VPN, protocoles Wifi sûrs)
+  * Les disques sont chiffrés
+  * Les postes sont sauvegardés
+  * Les utilisateurs ferment leur session lorsqu'ils n'en ont plus besoin
+  * Les utilisateurs prennent des précautions additionnelles lors de l'usage dans des lieux publics
+  * L'éventuelle utilisation de terminaux personnels (BYOD) est encadrée
+
+===== Mise en œuvre  ===== 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Tirer des enseignements des incidents liés la sécurité de l'information
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: EVT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+A partir des incidents passés :
+  * améliorer le processus de réponse aux incidents
+  * détecter les incidents récurrents et mettre en place des actions de mitigation
+  * mettre à jour l'analyse des risques et/ou l'implémentation des mesures
+  * communiquer pour sensibiliser les personnels
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

@@ -1,22 +1,20 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Appréciation des événements liés à la sécurité de l'information et prise de décision
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: EVT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
 ===== Attendus =====
-FIXME
-
+  * Les règles de classification d'un événement en tant qu'incident sont établies et documentées
+  * Les règles de priorisation sont établies et documentées
+  * L'organisation doit évaluer les événements de sécurité de l'information et décider s'ils doivent être catégorisés comme des incidents de sécurité de l'information.
 ===== Mise en œuvre  =====
 FIXME
 

@@ -1,0 +1,6 @@
+====== Paramètres du Wiki ======
+  * [[risk|Paramètres de l'analyse des risques]]
+  * [[act|Paramètres de la gestion des actions]]
+  * [[mes|Paramètres des mesures]]
+  * [[div|Paramètres divers]]
+  * [[scrapbook:start|Modèles de pages]]

@@ -1,0 +1,98 @@
+====== Paramètres de l'analyse des risques ======
+===== Critères =====
+<data #Critère>
+Confidentialité: C
+Intégrité: I
+Disponibilité: D
+Auditabilité: A
+</data>
+===== Gravité des événements redoutés =====
+On considère pour chaque type d'information les effets du non respect de l'un des critères de la sécurité de l'information : disponibilité, intégrité ou confidentialité.
+
+L'échelle de gravité est celle de la {{fiche9.pdf |fiche 9 de la HAS}}
+<data #Gravité>
+Mineur: 1
+Significatif: 2
+Majeur: 3
+Critique: 4
+Catastrophique: 5
+</data>
+ ======
+===== Vraisemblance des scénarios =====
+De même, l'échelle de vraisemblance est celle de la même fiche, avec 5 niveaux.
+<data #Vraisemblance>
+Très improbable: 1
+Très peu probable: 2
+Peu probable: 3
+Possible/Probable: 4
+Très probable: 5
+</data>
+===== Niveaux de risque =====
+Le niveau de risque est obtenu en multipliant la gravité par la vraisemblance maximum. Pour retrouver la matrice de criticité donnée en exemple dans la fiche, on en tire trois classes de risques:
+  * Prioritaire (rouge)
+  * A surveiller (jaune)
+  * Acceptable (vert)
+
+Seuils de risques au dessus desquels on passe dans le niveau de risque supérieur :
+<data #NiveauRisque>
+Acceptable: 4
+A surveiller: 12
+Prioritaire: 25
+</data>
+<data #CouleurRisque>
+Acceptable: 60ff60
+A surveiller: ffff60
+Prioritaire: ff7070
+</data>
+
+===== Traitement des risques =====
+<data #TRisk>
+Indéfini: I
+Accepter: A
+Réduire: R
+Transférer: T
+Eviter: E
+</data>
+===== Modes de défaillance =====
+Les modes de défaillance sont ceux usuels d'EBIOS.
+<data #Mode>
+Dépassement des limites de fonctionnement : DEP
+Détérioration: DET
+Espionnage: ESP
+Modification, paramétrage, infection: MOD
+Perte, disparition: PTE
+Détournement de l'usage prévu: USG
+</data>
+===== Sources de défaillance =====
+<data #Source>
+Usager maladroit: USG_MLD
+Usager malveillant: USG_MLV
+Personnel en général maladroit: PER_MLD
+Personnel en général malveillant: PER_MLV
+Administrateur maladroit: ADMIN_MLD
+Administrateur malveillant: ADMIN_MLV
+Intrus avec des capacités faibles: EXT_LOW_MLV
+Intrus avec des capacités moyennes: EXT_MID_MLV
+Intrus avec des capacités élevées: EXT_HI_MLV
+Facteur environnemental exceptionnel: ENV_EXCEPT
+Facteur environnemental courant: ENV_USUAL
+Tiers maladroit: EXT_LOW_MLD
+Événement matériel, panne: MAT
+Sous-traitant maladroit: SUB_MLD
+Sous-traitant malveillant: SUB_MLV
+</data>
+===== Vecteurs de défaillance =====
+<data #Vecteur>
+Locaux en général: LOC
+Logiciels en général: LOG
+Matériels en général: MAT
+Matériels de stockage: MAT_STOR
+Serveurs: MAT_SVR
+Terminaux: MAT_TERM
+Contrôle d'environnement: MAT_ENV
+Organisation en général: ORG
+Canaux de communication avec les usagers: CAN_USG
+Sous-traitant: ORG_SUB
+Personnels en général: PER
+Réseaux en général: RSX
+</data>

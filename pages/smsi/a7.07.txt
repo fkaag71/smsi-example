@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Bureau propre et écran vide
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: PHYS
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Mise sous clé des supports amovibles ou papier
+  * Verrouillage automatique des sessions
+  * Récupération rapide des impressions sur les imprimantes partagées
+  * Discrétion des notifications pendant les présentations en ligne
+  * Effacement des tableaux blancs ou retrait des pages de tableaux papier
+
+===== Mise en oeuvre =====
 FIXME
 
 ===== Preuves =====

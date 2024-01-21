@@ -1,0 +1,162 @@
+====== Exigences HDS ======
+===== EXI 01 =====
+La certification d’un Hébergeur nécessite :
+  * Qu’il ait mis en œuvre un Système de Management de la Sécurité de l’Information (SMSI) certifié selon la norme ISO 27001, complétée des exigences définies au chapitre 5 ;
+  * Que le domaine d’application de ce SMSI couvre l’ensemble des activités d’hébergement de données de santé de l’Hébergeur ;
+  * Que les contrats conclus avec ses clients répondent aux exigences définies au chapitre 6 ;
+  * Qu’il respecte les exigences relatives à la souveraineté définies au chapitre 7 ;
+  * Qu’il communique à ses clients la présentation des garanties formalisée conformément au chapitre 8.
+
+===== EXI 02 =====
+Dans la détermination de ses enjeux externes et internes, l’Hébergeur doit prendre en compte le fait que sa mission lui impose la protection des DSCP qui lui sont confiées par ses clients.
+
+===== EXI 03 =====
+Dans la détermination des exigences des parties intéressées, l’Hébergeur doit prendre en compte le cadre juridique applicable en matière de protection des DSCP.
+
+===== EXI 04 =====
+Le domaine d’application du SMSI doit comprendre l’ensemble des traitements de DSCP assurés par l’Hébergeur. Il doit couvrir tous les moyens et processus de traitement des DSCP, notamment les sauvegardes et les transferts de supports matériels de l’information.
+
+===== EXI 05 =====
+Lors de l’appréciation des risques, l’Hébergeur doit a minima envisager les événements suivants :
+  - Défaillance des supports matériels de l’information due à des menaces physiques et environnementales.
+  - Perte de contrôle de supports matériels de l’information, notamment à l’occasion :
+    - De copie des DSCP sur des supports portables ;
+    - De matérialisation (éventuelle) sous format documents papier ;
+    - De réallocation des espaces de stockage. 
+  - Dégradation, compromission ou rupture d’un flux d’information interne ou externe sous la responsabilité de l’Hébergeur.
+  - Défaillance de la maîtrise des accès attribués, que ce soit aux personnels sous le contrôle de l’organisation ou à ceux désignés par ses clients : 
+    - Attribution, modification et retrait des droits d’accès ; 
+    - Distribution des moyens d’identification électroniques ; 
+    - Traçabilité et imputabilité des accès ; 
+    - Accès occasionnels lors des audits et tests d’intrusion.
+  - Défaillance de la maîtrise des interventions, qu’elles soient à l’initiative de l’organisation ou commanditées par un client.
+  - Usages imprévus du service, par maladresse ou malveillance.
+  - Défaillances matérielles ou logicielles, avec incapacité à respecter les engagements de continuité ou de reprise d’activité.
+  - Sujétion de l’Hébergeur ou des éventuels sous-traitants à des législations extra-européennes pouvant entrainer une violation des DSCP.
+
+> Cette exigence est prise en compte via les scénarios suivants de l'analyse des risques.
+> [[smsi:schds01]]: Défaillance des supports matériels de l'information
+> [[smsi;schds02a]]: Copie des DSCP sur des supports portables
+> [[smsi:schds02b]]: Matérialisation sous format documents papier
+> [[smsi:schds02c]]: Réallocation des espaces de stockage. 
+> [[smsi:schds03/i]]: Dégradation d’un flux d’information interne ou externe
+> [[smsi:schds03/c]]: Compromission d’un flux d’information interne ou externe
+> [[smsi:schds03/d]]: Rupture d’un flux d’information interne ou externe
+> [[smsi:schds04a]]: Défaut de maîtrise dans l'attribution, modification et retrait des droits d’accès
+> [[smsi:schds04b]]: Défaut de maîtrise dans la distribution des moyens d’identification électroniques
+> [[smsi:schds04c]]: Défaut dans la traçabilité et imputabilité des accès ; 
+> [[smsi:schds04d]]: Accès occasionnels lors des audits et tests d’intrusion
+> [[smsi:schds05]]: Défaillance de la maîtrise des interventions
+> [[smsi:schds06]]: Usages imprévus du service, par maladresse ou malveillance.
+> [[smsi:schds07]]: Reprise impossible après un défaut
+> [[smsi:schds08]]: Sujétion de l’Hébergeur ou des sous-traitants à des législations extra-européennes
+
+===== EXI 06 =====
+En cas de recours à la sous-traitance, l’Hébergeur doit s’assurer qu’il maîtrise les changements des mesures techniques et organisationnelles de ses sous-traitants permettant de traiter les risques identifiés.
+
+===== EXI 07 =====
+Afin de réduire les risques d’usage imprévu du système, l’Hébergeur doit s’assurer que : 
+  * Les interfaces proposées aux clients sont disponibles au moins en langue française ; 
+  * Le support de premier niveau est au moins en langue française.
+
+===== EXI 08 =====
+La déclaration d’applicabilité doit être disponible en langue française pour les auditeurs qui en feront la demande.
+
+===== EXI 09 =====
+Les objectifs de sécurité de l’information établis par l’Hébergeur doivent intégrer la protection des DSCP qui lui sont confiées par ses clients et comporter le respect des obligations du RGPD. 
+
+===== EXI 10 =====
+Les personnels travaillant pour l’Hébergeur doivent être sensibilisés à la criticité en termes de disponibilité, de confidentialité et d’intégrité des DSCP hébergées. 
+Cette exigence s’applique également au personnel des sous-traitants éventuels de l’Hébergeur. 
+
+===== EXI 11 =====
+L’Hébergeur doit : 
+  * Maintenir une liste des points de contact pour chacun des clients. Ce point de contact doit être en mesure de désigner à l’Hébergeur un professionnel de santé habilité à accéder aux DSCP lorsque cela est nécessaire. 
+  * Être en capacité de transmettre sans délai cette liste à l’autorité compétente sur demande, notamment en cas de suspension ou de retrait de la certification.
+ 
+===== EXI 12 =====
+L’Hébergeur doit communiquer à ses clients :
+  * Une copie du certificat de conformité HDS. Cette copie constitue une garantie pour le Client de l’Hébergeur du respect des exigences de conformité ; 
+  * Le certificat de ses sous-traitants participant à l’activité d’hébergement lorsqu’ils sont certifiés HDS.  
+
+===== EXI 13 =====
+L’Hébergeur doit planifier et contrôler la répartition des responsabilités en termes de sécurité de l’information entre l’Hébergeur et son client.
+
+===== EXI 14 =====
+En cas de recours à un sous-traitant certifié pour la réalisation de tout ou partie du service d’hébergement, l’Hébergeur doit prévoir une procédure permettant d’encadrer le risque de perte ou de suspension de la certification du sous-traitant.
+
+===== EXI 15 =====
+L’Hébergeur doit permettre au client d’effectuer les vérifications suivantes du niveau de sécurité proposé :
+  * Si l’Hébergeur met à la disposition du client des ressources qui lui sont spécifiques, le client peut réaliser ou mandater des audits de sécurité technique sur ces seules ressources spécifiques. L’organisation assiste le client ou son intervenant mandaté dans le maintien de la sécurité de l’information durant ces audits ; 
+  * Sur demande du client, l’Hébergeur doit lui communiquer la synthèse managériale d’un rapport d’audit technique portant sur les ressources mutualisées dans le cadre du service. Cet audit doit être réalisé par un auditeur indépendant et dater de moins de trois ans ; 
+  * L’Hébergeur doit permettre au client de consulter les traces d’accès aux DSCP portées par des ressources spécifiques ou auxdites ressources par les personnels sous son contrôle ; 
+  * L’Hébergeur doit définir les modalités permettant à son client de consulter son dernier rapport d’audit de certification HDS.
+
+===== EXI 16 =====
+Les audits internes effectués par l’Hébergeur doivent comprendre a minima :
+  * Un audit permettant de déterminer si le SMSI est conforme aux exigences du présent référentiel et est efficacement mis en œuvre et maintenu ; 
+  * Un audit des traces des accès par les personnes opérant pour le compte de l’organisation aux DSCP ou aux systèmes utilisés pour leur traitement.
+
+===== EXI 17 =====
+Conformément au 1° de l’article R.1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit comporter une clause mentionnant l’indication du périmètre du certificat de conformité obtenu par l’Hébergeur, ainsi que ses dates de délivrance et de renouvellement.
+
+===== EXI 18 =====
+Conformément au 2° de l’article R.1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit comporter une clause relative à la description des prestations réalisées, comprenant le contenu des services et résultats attendus notamment aux fins de garantir la disponibilité, l'intégrité, la confidentialité et l'auditabilité des données hébergées.
+
+===== EXI 19 =====
+Conformément au 4° de l’article R.1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit comporter une clause relative aux mesures mises en œuvre pour garantir le respect des droits des personnes concernées par les données de santé. Cette clause doit notamment comporter les mentions suivantes : les modalités d’exercice des droits d’accès, de rectification, de limitation, d’opposition, d’effacement et de portabilité des données (lorsqu’ils sont applicables), les modalités de signalement au responsable de traitement d’une violation des données à caractère personnel, les modalités de conduite des audits par le délégué à la protection des données.
+
+===== EXI 20 =====
+Conformément au 5° de l’article R.1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit comporter une clause mentionnant le référent contractuel du client de l'Hébergeur à contacter pour le traitement des incidents ayant un impact sur les données de santé hébergées.
+
+===== EXI 21 =====
+Conformément au 6° de l’article R.1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit comporter une clause précisant les indicateurs de qualité et de performance permettant la vérification du niveau de service annoncé, le niveau garanti, la périodicité de leur mesure, ainsi que l'existence ou l'absence de pénalités applicables au non-respect de ceux-ci.
+
+===== EXI 22 =====
+Conformément au 7° de l’article R. 1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit prévoir une information sur les conditions de recours à d'éventuels prestataires techniques externes et les engagements de l'Hébergeur pour que ce recours assure un niveau de protection équivalent de garantie au regard des obligations pesant sur l'Hébergeur, dans le respect de l’article 28.4 du RGPD.
+
+===== EXI 23 =====
+Conformément au 8° de l’article R.1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit décrire les modalités retenues pour encadrer les accès aux données de santé à caractère personnel hébergées.	 
+
+===== EXI 24 =====
+Conformément au 9° de l’article R. 1111-11 du CSP, le contrat d’hébergement doit préciser les obligations de l’Hébergeur à l’égard de son Client en cas de modifications ou d'évolutions techniques introduites par lui ou imposées par le cadre légal applicable. 
+
+Le contrat d’hébergement doit en outre prévoir l’accord préalable du Client dans le cas où ces modifications ou évolutions introduites par l’Hébergeur ne respectent pas : 
+  * Les niveaux de service tels que requis au chapitre; 6.5
+  * Les garanties définies aux chapitres 6.2 et  6.9
+
+===== EXI 25 =====
+Conformément au 10° de l’article R.1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit prévoir une information sur les garanties et les procédures mises en place par l’Hébergeur permettant de couvrir toute défaillance éventuelle de sa part.
+
+===== EXI 26 =====
+Conformément au 11° de l’article R.1111-11 du CSP, le contrat d’hébergement conclu entre l’Hébergeur et son Client doit rappeler l'interdiction pour l'Hébergeur d'utiliser les données de santé hébergées à d'autres fins que l'exécution de l'activité d'hébergement de données de santé.
+
+===== EXI 27 =====
+Conformément aux 12° à 14° de l’article R.1111-11 du CSP, une clause relative à la réversibilité doit en présenter les modalités à la fin de la prestation ou en cas d'arrêt anticipé de la prestation quel qu’en soit le motif, avec a minima :
+  * L’engagement de restitution de la totalité des informations confiées au titre de la prestation ;
+  * L’engagement de destruction de toute copie de ces informations à l’issue de la restitution ;
+  * Les modalités de calcul des coûts et délais pour la restitution des copies ; 
+  * Les formats de restitution, lisibles et exploitables à des fins de portabilité des données de santé, et le cas échéant les modalités permettant le déplacement des machines virtuelles/conteneurs.
+
+===== EXI 28 =====
+Quelle que soit l’activité d’hébergement de DSCP, dès lors que celle-ci implique un stockage de DCSP, alors la ou les localisations de stockage des DSCP, proposée au Client par l’Hébergeur ou l’un de ses sous-traitants, sont situées exclusivement au sein de l’Espace Economique Européen (EEE). L’Hébergeur documente la localisation de ce stockage.
+
+===== EXI 29 =====
+Lorsque la prestation proposée par l’Hébergeur ou l’un de ses sous-traitants implique un accès à distance depuis un pays qui ne fait pas partie de l’Espace Economique Européen (EEE), cet accès doit être fondé sur une décision d’adéquation de la Commission adoptée vertu de l’article 45 du RGPD  ou, à défaut, sur l’une des garanties appropriées prévues à l’article 46 du règlement. 
+
+Dans ce dernier cas, l’hébergeur informe son client de l’absence de décision d’adéquation, d’une part, et des garanties appropriées au sens de l’article 46 du RGPD mises en place pour encadrer cet accès à distance, d’autre part. 
+
+L’hébergeur indique au client si les garanties appropriées mises en place permettent de garantir un niveau de protection des données équivalent à celui garanti par le droit de l’Union, et à défaut documente les mesures supplémentaires qu’il a prises pour garantir un tel niveau.
+
+===== EXI 30 =====
+Lorsque l’Hébergeur, ou l’un de ses sous-traitants intervenant dans la prestation d’hébergement, est soumis à la législation d’un pays tiers n’assurant pas un niveau de protection adéquat au sens de l’article 45 du RGPD, l’Hébergeur doit indiquer dans le contrat qui le lie à son client et porter à la connaissance de l’organisme certificateur :
+  * La liste des législations en vertu desquelles l’Hébergeur, ou l’un de ses sous-traitants intervenant dans la prestation d’hébergement, serait tenu de permettre un accès non autorisé par le droit de l’Union aux DSCP, au sens de l’article 48 du RGPD ;
+  * Les mesures mises en œuvre par l’Hébergeur pour atténuer les risques d’accès non autorisé aux DSCP induits par ces réglementations ;
+  * La description des risques résiduels qui demeureraient malgré ces mesures.
+
+===== EXI 31 =====
+L’Hébergeur doit rendre publique et mettre à jour la cartographie des transferts des DSCP vers un pays n'appartenant pas à l’Espace Économique Européen, y compris les risques d’accès non autorisé visés par l’exigence n° 30. Les modalités d’information du public doivent prendre la forme suivante :
+  * Dans le cas où l’activité certifiée ne comporte ni transfert de DSCP vers un pays n'appartenant pas à l’Espace Économique Européen, ni risque d’accès non autorisé visé par l’exigence n°30, l'Hébergeur doit communiquer l’information suivante : aucun transfert de données vers un pays tiers à l’Espace Économique Européen ni aucun risque d’accès imposé par la législation d’un pays tiers en violation du droit de l’Union;
+  * Dans le cas où l’activité certifiée comporte un ou plusieurs transferts de DSCP vers un pays n'appartenant pas à l’Espace Économique Européen ou un risque d’accès non autorisé visé par l’exigence n°30, l'Hébergeur doit communiquer les informations figurant dans le tableau fourni au chapitre 8. 
+
+L'Hébergeur doit mettre ces informations à la disposition du public, de manière lisible et sur une page dédiée d’un site internet accessible, et communiquer à l’organisme certificateur (OC) l’URL de la page où l’information qu’il n’existe aucun transfert de DSCP vers un pays tiers à l’espace économique européen ni aucun risque d’accès imposé par la législation d’un pays tiers en violation du droit de l’Union. Cette URL ou information a vocation à être publiée dans la liste des hébergeurs certifiés sur le site de l’ANS.

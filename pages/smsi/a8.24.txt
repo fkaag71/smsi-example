@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Utilisation de la cryptographie
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *:  CONF
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Objectifs de force des algorithmes cryptographiques (voir la notation Qualys SSL Server)
+  * Fonctions et responsabilités pour la gestion des clés
+  * Procédures de gestion des clés: attribution, conservation, révocation, destruction
+  * Règles de chiffrement des supports et des liens
+  * Compromis entre chiffrement et observabilité (filtrage des contenus, antivirus)
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

@@ -1,0 +1,10 @@
+~~NOCACHE~~
+====== Suivi des événements ======
+<table ?date[date::d/m/Y] ?evt ?libellé>
+?evt is a: event
+?evt label: ?libellé
+?evt date : ?date
+sort {
+ ?date(asc)
+}
+</table>

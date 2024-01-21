@@ -1,21 +1,21 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Termes et conditions d'embauche
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier 
+Capacités [enum:::param:mes#Capacite] *: RH
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+Le contrat de travail inclut ou est complété par:
+  * un accord de confidentialité, y compris les obligations après la rupture du contrat
+  * les éventuelles obligations de sécurité spécifiques liées au poste
 
 ===== Mise en œuvre  =====
 FIXME

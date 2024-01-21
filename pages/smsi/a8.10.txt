@@ -1,22 +1,20 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Suppression d'informations
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: PROT,REGL
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
+===== Attendus =====
+  * Effacement sécurisé des supports d'informations sensibles
+  * Enregistrement des effacements sécurisés
 ===== Mise en œuvre  =====
 FIXME
 

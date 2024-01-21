@@ -1,23 +1,22 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Exigences de sécurité des applications
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: APP,SYST,DEV
+Inclut [page] * : a5.17, a8.15, a8.24
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
 Avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Mise à jour de l'analyse des risques pour de nouvelles applications
+  * Prise en compte des besoins d'authentification, de cloisonnement, de résilience, de chiffrement, de surveillance, de preuve, des exigences contractuelles et légales.
+===== Mise en œuvre  ===== 
 FIXME
 
 ===== Preuves =====

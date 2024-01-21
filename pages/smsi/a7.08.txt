@@ -1,23 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Emplacement et protection des matériels
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: PHYS,ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Emplacement des matériels cohérent avec la criticité des informations
+  * Maintien des conditions environnementale et de sécurité physique
+  * Minimisation des accès ou passages inutiles
+
+===== Mise en oeuvre =====
 FIXME
 
 ===== Preuves =====

@@ -1,22 +1,24 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Contrôle d'accès
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: IDACC
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
+===== Attendus =====
+  * Des règles de contrôle des accès physiques et logiques sont définies et appliquées.
+  * Une politique de gestion des accès est définie
+  * Elle est fondée sur le principe du moindre privilège
+  * Elle repose sur la formalisation des attributions de droits avec une séparation des rôles
+  * Elle intègre la révision périodique des droits
+  * Elle introduit les autres mesures plus opérationnelles de gestion des identités et des accès
 ===== Mise en œuvre  =====
 FIXME
 

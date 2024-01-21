@@ -1,21 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Tests de sécurité dans le développement et acceptation
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: APP, ASSUR, SYST,DEV
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+  * Exprimer les exigences de sécurité et les tests correspondants
+  * Réaliser, selon les besoins:
+    * des analyses de code
+    * des tests des fonctions de sécurité (authentification, habilitations)
+    * des tests d'intrusion
 
 ===== Mise en œuvre  =====
 FIXME

@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Redondance des moyens de traitement de l'information
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: CONT,ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Plusieurs salles sans mode de défaillance commun
+  * Plusieurs fournisseurs d'accès Internet
+  * Sources d'alimentation redondantes
+  * Duplication des composants dans les systèmes et les réseaux
+  * Stratégies de redondance exprimées (actif/passif, actif/actif)
+  * Test des redondances passives
+===== Mise en œuvre  ===== 
 FIXME
 
 ===== Preuves =====

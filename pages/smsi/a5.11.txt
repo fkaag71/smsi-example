@@ -1,23 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Restitution des actifs
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
 ===== Attendus =====
-FIXME
+En cas de changement ou de fin d'emploi:
+  * Les actifs confiés sont restitués (ce qui requiert qu'ils soient documentés)
+  * Les données stockées sur des dispositifs personnels sont effacées
+  * Les connaissances utiles au SMSI sont documentées et transmises
 
-===== Mise en œuvre  =====
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

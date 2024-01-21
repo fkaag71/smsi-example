@@ -1,21 +1,19 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Engagements de confidentialité ou de non-divulgation
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: RH,PROT,FNR
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
 Avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+Les exigences en matière d'engagement de confidentialité ou de non divulgation doivent être identifiés, vérifiés régulièrement et documentés conformément aux besoins de l'organisation. 
 
 ===== Mise en œuvre  =====
 FIXME

@@ -1,23 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Prévention de la fuite de données
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: PROT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+Mise en place de mécanismes de protection empêchant la récupération ou l'exfiltration de données sensibles:
+  * Consultation sans possibilité de téléchargement
+  * Détection d'informations sensibles dans les envois de fichiers
+
+=====  Mise en œuvre  =====
 FIXME
 
 ===== Preuves =====

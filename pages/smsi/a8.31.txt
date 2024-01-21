@@ -1,0 +1,42 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Séparation des environnements de développement, de test et de production
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: APP,SYST,DEV
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+ ===== Attendus =====
+  * Les environnements de développement, de test et de production doivent être séparés et sécurisés.
+  * Les outils de développement ne sont pas présents sur les environnements de production
+  * Les tests ne sont effectués en production qu'exceptionnellement et de manière maîtrisée
+  * Les déploiements en production sont soumis à autorisation et ne peuvent être faits par une personne seule
+
+
+===== Mise en œuvre  ====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

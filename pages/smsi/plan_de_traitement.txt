@@ -1,0 +1,35 @@
+====== Plan de traitement des risques ======
+~~NOCACHE~~
+Mesures programmées pour réduire les risques comme indiqué dans le [[tableau des risques]].
+
+<table ?risk "#" ?lrisk "Risque" ?t@unique[enum:::param:risk#TRisk] "Traitement" ?mese@unique "Mesures effectives" ?mesp@unique "Mesures programmées">
+?risk is a: risk
+?risk label: ?lrisk
+?risk scenarios: ?scn
+optional {
+  ?risk traitement: ?t
+}
+optional {
+  ?risk traitement: R
+  ?scn mesures: ?mesp
+  ?mesp statut: P
+}
+optional {
+  ?scn mesures: ?mese
+  ?mese statut: E
+}
+sort {
+  ?risk(asc)
+  ?mese(asc)
+}
+group {
+  ?risk
+  ?lrisk
+}
+ui {
+ filter: text
+ Traitement {
+  filter: select
+ }
+}
+</table>

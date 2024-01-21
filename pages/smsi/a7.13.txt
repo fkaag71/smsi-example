@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Maintenance des matériels
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: PHYS,ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Les matériels sont entretenus périodiquement conformément à leur spécification
+  * Les interventions sont effectuées par des personnels qualifiés
+  * Les défaillances et interventions sont enregistrées
+  * Les interventions sur site sont surveillées
+  * Les interventions à distance sont planifiées et autorisées
+
+===== Mise en œuvre  ===== 
 FIXME
 
 ===== Preuves =====

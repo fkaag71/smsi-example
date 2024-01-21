@@ -1,23 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Protection contre les menaces physiques et environnementales
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: PHYS
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Concerne incendies, inondations, tremblements de terre, alertes Seveso, explosions, émeutes
+  * Détection et alarme, éventuellement traitement (incendie)
+  * Contrats de maintenance et rapports de visites
+===== Mise en œuvre =====
+
 FIXME
 
 ===== Preuves =====

@@ -1,22 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Dimensionnement
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: CONT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
+===== Attendus =====
+  * Les besoins en ressources matérielles (courant, froid, calcul, stockage, etc.) et humaines sont évalués
+  * L'usage des ressources matérielles est supervisé
+  * Les décisions d'augmentation des ressources tiennent compte des délais d'approvisionnement
+  * Les consommations superflues sont éliminées (purge, quotas)
+  * Les dépendances aux personnels clés sont identifiées et minimisées
 ===== Mise en œuvre  =====
 FIXME
 

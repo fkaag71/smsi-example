@@ -1,23 +1,26 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Réponse aux incidents liés à la sécurité de l'information
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: EVT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+La procédure de traitement des incidents doit prendre en compte :
+  * Le confinement pour éviter la propagation à d'autres systèmes
+  * L'escalade selon le niveau de priorité
+  * La journalisation des actions et la collecte de preuves
+  * La communication interne et externe (utilisateurs, autorités)
+  * La clôture et les actions de traitement de la cause première
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

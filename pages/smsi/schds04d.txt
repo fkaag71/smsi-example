@@ -1,17 +1,15 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
-~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Accès occasionnel lors des audits et tests d'intrusion
 VC [enum:::param:risk#Vraisemblance]: 5
 VF [enum:::param:risk#Vraisemblance]: 5
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Accès occasionnel lors des audits et tests d'intrusion
 ===== Exemples =====
-//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+  * Des données confidentielles sont exfiltrées lors d'un test d'intrusion commandité par un client de l'hébergeur.
+  * Lors d'un audit sur site, des données de santé à caractère personnel sont présentées à l'auditeur.
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
 ===== Mesures effectives =====
@@ -57,11 +55,11 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source]: PER_MLD, USG_MLD
+Vecteur[enum:::param:risk#Vecteur]: LOG
+Mode [enum:::param:risk#Mode]: USG, ESP
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
+Mesures [ref]*: a5.20, a5.31, a8.34
 </data>
 
 

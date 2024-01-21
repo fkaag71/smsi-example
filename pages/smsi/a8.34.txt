@@ -1,0 +1,42 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Protection des systèmes d'information en cours de tests d'audit
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: SYST,PROT,PROD
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+  * Les tests d'audits et autres activités d'assurance impliquant l'évaluation des systèmes opérationnels doivent être planifiés et convenus entre le testeur et le niveau approprié de la direction. 
+  * Encadrer le test d'intrusion par une procédure qui mentionne:
+      * le respect de la confidentialité, 
+      * l'interdiction de modifier les données
+      * un moyen de contact d'urgent pour mettre fin au test en cas de problème inattendu
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

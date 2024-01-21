@@ -1,0 +1,56 @@
+====== Gestion des actions ======
+===== Plan unique des actions =====
+Les membres du Comité de pilotage constituent un plan unique des actions à partir des décisions issues:
+  * Des non conformités constatées, notamment lors des audits internes et du test d'intrusion
+  * Des opportunités d'amélioration continue
+  * De l'analyse des risques
+  * Des incidents de sécurité
+  * Ainsi qu'en toute occasion utile
+
+L'événement générateur d'une ou plusieurs actions est enregistré comme une fiche événement. 
+Cette fiche comporte au moins :
+  * Un identifiant, de la forme evtAAMMNN[-X], où AA est l'année de création, MM le mois et NN le jour et éventuellement -X en numéros d'ordre i plusieurs événements surviennent le même jour.
+  * La date de l'événement
+  * Sa description 
+  * Les liens vers les actions initiées
+  * Éventuellement le compte-rendu de l'événement
+
+La liste des fiches événements est consultable [[reg:evenements|ICI]]
+
+Chaque action fait l'objet d'une fiche action. Cette fiche comporte au moins :
+  * un identifiant, de la forme actAAMMNN, où AA est l'année de création, MM le mois et NN un numéro d'ordre.
+  * un intitulé, 
+  * un pilote parmi les membres du COPIL SMSI
+  * un statut : __Programmée__, __En cours__, __Suspendue__, __Terminée__ ou __Clôturée__
+  * un avancement en pourcentage et la description de sa méthode de mesure, 
+  * une échéance, identifiée par le trimestre du Comité auquel elle devrait être clôturée (25T2 pour le second trimestre 2025).
+  * la description de son critère de clôture
+  * un journal.
+
+Les listes des fiches actions en cours et clôturées sont consultables sur la page de [[reg:suivi des actions]].
+
+Pour alléger la gestion en évitant les fiches actions redondantes: 
+  * Une mesure programmée peut être déclarée à la fois en tant que mesure et qu'action.
+  * Dans la phase de construction du SMSI, les %%FIXME%% inscrits dans les procédures valent fiche d'action et complètent le plan unique des actions.
+
+===== Suivi des actions =====
+La fiche action est mise à jour par son pilote au moins en préparation de chaque réunion trimestrielle du Comité de pilotage.
+
+A chaque mise à jour il ajoute une section à la date du jour dans le journal, met à jour l'avancement et le cas échéant le statut.
+
+L'action est terminée lorsque son avancement atteint 100%, mais qu'elle n'a pas été encore clôturée par le COPIL SMSI.
+
+L'action ne peut être clôturée qu'après l'appréciation par le COPIL SMSI de son efficacité, sur la base de critère de clôture défini dès la création de l'action. Cette appréciation de l'efficacité doit être consignée dans le journal. Si l'action est issue d'une non-conformité ou d'un incident de sécurité, elle doit notamment prendre en compte :
+  * Si l'action élimine la non-conformité ou réduit suffisamment la probabilité d'occurrence de l'incident.
+  * L'existence possible de non-conformités similaires ou l'occurrence possible d'incidents similaires.
+  * La réponse apportée par l'action à ces non-conformités ou incidents potentiels.
+
+En fonction du résultat, le COPIL SMSI peut:
+  * Clôturer l'action, jugée efficace dans tous les cas de figure.
+  * Maintenir l'action ouverte pour traiter des cas complémentaires, en redéfinissant son critère d'avancement.
+  * Créer de nouvelles actions si les modalités de traitement des cas complémentaires sont significativement différentes de celles retenues initialement.
+
+Lorsque l'action efficace requiert une modification du SMSI, celle-ci est publiée et applicable dès la décision du COPIL SMSI.
+
+La liste des actions est revue formellement à chaque réunion trimestrielle du COPIL SMSI et informellement lors des réunions courantes de suivi de l'activité.
+

@@ -1,0 +1,24 @@
+====== Procédures de fonctionnement ======
+
+===== Procédures organisationnelles =====
+  * [[Mesures de sécurité dans la gestion du personnel]]
+  * [[Charte utilisateur]]
+  * [[Gestion des compétences]]
+  * [[Contrat de service]]
+  * [[Conditions générales d'utilisation ]]
+  * [[Sécurisation de la relation avec les fournisseurs]]
+
+
+====== Procédures techniques ======
+  * [[Demandes de service]] 
+  * [[Gestion des incidents]]
+  * [[Gestion des changements]]
+  * [[Sécurité dans les projets]]
+  * [[Politique de sauvegarde]]
+  * [[Politique de journalisation]]
+  * [[Gestion de la capacité]] 
+  * [[Sécurité physique et environnementale]
+  * [[Gestion des identités des accès et des crédits]]
+  * [[Gestion des actifs sensibles]] 
+  * [[Procédures d'exploitation]]
+  * [[Guide de bonnes pratiques]]

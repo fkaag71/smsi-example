@@ -1,21 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Droits de propriété intellectuelle
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: REGL
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+  * Communication sur la protection des droits de propriété intellectuelle
+  * Acquisition des logiciels utilisés
+  * Respect des nombres de licences accordées
+  * Vérification des logiciels installés
+  * Respect des droits d'auteur sur les média (audio, vidéo, e-books, etc).
 
 ===== Mise en œuvre  =====
 FIXME

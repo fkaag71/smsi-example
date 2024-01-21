@@ -1,17 +1,17 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
 ~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Sujétion à des législations extra-européennes
 VC [enum:::param:risk#Vraisemblance]: 5
 VF [enum:::param:risk#Vraisemblance]: 5
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Sujétion de l’Hébergeur ou des sous-traitants à des législations extra-européennes
 ===== Exemples =====
-//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+  * Hébergeur dont le siège social relève d'un pays susceptible d'imposer des divulgations de données
+  * Sous-traitant susceptible d'être soumis à la même obligation
+  * Sous-traitant susceptible de devoir interrompre son service sans délai (sanctions internationales)
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
 ===== Mesures effectives =====
@@ -57,11 +57,11 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source]:  EXT_HI_MLV
+Vecteur[enum:::param:risk#Vecteur]: ORG,ORG_SUB 
+Mode [enum:::param:risk#Mode]: ESP, PTE
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
+Mesures [ref]*: a5.05, a5.07, a6.19, a5.20, a5.21, a5.22, a5.23, a5.30, a5.31, a8.14
 </data>
 
 

@@ -1,5 +1,6 @@
 ====== Modèle de page pour un événement ======
-//FIXME Supprimer la ligne de titre //
+~~NODATA~~
+//FIXME Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data event>
 Label: <FIXME>

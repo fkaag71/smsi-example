@@ -1,17 +1,17 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
 ~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Matérialisation sous format de documents papier
 VC [enum:::param:risk#Vraisemblance]: 5
 VF [enum:::param:risk#Vraisemblance]: 5
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Perte de contrôle de supports matériels de l'information à l'occasion de matérialisation sous format de documents papier.
 ===== Exemples =====
-//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+  * Envoi d'impressions à une imprimante distante
+  * Documents papier oubliés dans un lieu public
+  * Courrier en attente
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
 ===== Mesures effectives =====
@@ -57,11 +57,11 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source]: PER_MLD
+Vecteur[enum:::param:risk#Vecteur]: MAT_STOR
+Mode [enum:::param:risk#Mode]: PTE
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
+Mesures [ref]*: a5.12,a5.13, a5.14, a6.03, a7.03, a7.07
 </data>
 
 

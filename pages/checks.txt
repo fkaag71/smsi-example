@@ -1,0 +1,43 @@
+~~NOCACHE~~
+====== Anomalies ======
+===== Actions sans événement =====
+Toute action (hormis les actions implicites de mise en oeuvre d'une mesure programmée) devrait être déclenchée par un événement, tel que COPIL, audit, incident, etc.
+
+<table ?act ?label>
+-- toutes les actions
+?act is a: action
+?act label: ?label
+minus {
+-- sauf celles qui ont un événement déclencheur
+ ?act is a: action
+ ?evt Actions: ?act
+}
+minus {
+-- sauf celles qui sont des mesures
+  ?act is a: mes
+}
+</table>
+
+===== Actions sans pilote ou sans échéance =====
+Les actions ne devraient pas pouvoir sortir de l'état Brouillon si elles n'ont pas un pilote et une échéance.
+
+<table ?act ?label ?statut ?p ?e>
+-- Toutes les actions qui ne sont pas à l'état Brouillon
+?act is a: action
+?act label: ?label
+?act statut action: ?statut
+?statut != B
+optional {
+?act pilote: ?p
+}
+optional {
+?act Echéance: ?e
+}
+minus {
+-- Sauf celles qui ont un pilote ET une échéance.
+  ?act pilote: ?p
+  ?p != NA
+  ?act Echéance: ?e
+}
+
+</table>

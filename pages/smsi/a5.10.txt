@@ -1,21 +1,24 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Utilisation correcte de l'information et des actifs associés
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: ACT, PROT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+L'utilisation correcte suppose que les personnels et utilisateurs externes soient informés:
+  * Des usages acceptables ou inacceptables
+  * Des activités de surveillance
+Les processus opérationnels doivent encadrer:
+  * Les autorisations d'accès et d'usage des informations (individuelles ou par rôles)
+  * La protection des copies et des supports
 
 ===== Mise en œuvre  =====
 FIXME

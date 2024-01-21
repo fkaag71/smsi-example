@@ -1,0 +1,43 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Mesures contre les logiciels malveillants
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier 
+Capacités [enum:::param:mes#Capacite] *: SYST,PROT,PROD
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus ======
+  * Restrictions sur l'installation ou l'utilisation d'applications
+  * Blocage des sites malveillants
+  * Analyse périodique des systèmes de production et des postes utilisateurs
+  * Analyse et blocage des pièces jointes et des fichiers téléchargés
+  * Mise à jour régulière des antivirus
+  * Sensibilisation des utilisateurs ([[a6.03]])
+
+===== Mise en œuvre  ===== 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

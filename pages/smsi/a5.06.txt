@@ -1,21 +1,22 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Relations avec les groupes de travail spécialisés
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: GOUV
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+Adhésion à des groupes, forums, listes de diffusion pour s'informer sur:
+  * Les bonnes pratiques (guides ANSSI)
+  * Les alertes de sécurité (CERT)
+  * Les contacts pertinents (experts, autorités).
 
 ===== Mise en œuvre  =====
 FIXME

@@ -1,0 +1,48 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Sécurité de l'information dans les relations avec les fournisseurs
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: FNR
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+
+Des processus et procédures pour gérer les risques de sécurité de l'information qui sont associés à l'utilisation des produits ou services du fournisseur doivent être définis et mis en oeuvrre pour limiter l'accès aux informations sensibles. 
+
+Les types de fournisseurs susceptibles d'affecter un critère de sécurité (DICA) sont répertoriés
+  * Des règles d'évaluation et de sélection des fournisseurs sensibles sont établies
+  * Des règles d'évaluation et de sélection des services parmi ceux des fournisseur sensibles sont établies
+  * Les accès physiques ou logiques pouvant être concédés à des fournisseurs sont définis
+  * Les risques induits par les accès accordés aux fournisseurs sont pris en compte
+  * Les risques induits par les services souscrits auprès des fournisseurs sont pris en compte
+  * Le remplacement du fournisseur en cas de défaillance est possible
+  * La revue régulière et la gestion des incidents fournisseurs sont en place
+  * Les conditions de réversibilité en fin de contrat sont pleinement définies
+
+===== Mise en œuvre =====
+FIXME
+
+===== Preuves =====
+FIXME
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

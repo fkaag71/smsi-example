@@ -1,0 +1,43 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Travail dans les zones sécurisées
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: PHYS
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+====== Attendus ======
+  * Ne révéler que le minimum sur les activités dans les zones sécurisées
+  * Eviter le travail non supervisé en zone sécurisée
+  * Verrouiller et surveiller la présence dans les zones sécurisées
+  * Interdire les prises de vues
+  * Restreindre l'accès et l'usage d'équipements personnels (téléphones, portables)
+  * Afficher clairement dans les zones sensibles les procédures en cas d'urgence (évacuation)
+
+===== Mise en œuvre =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

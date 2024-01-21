@@ -1,0 +1,45 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Protection de la vie privée et des données à caractère personnel
+Statut [enum:::param:mes#Statut]: I
+Justification: Exigence légale
+Capacités [enum:::param:mes#Capacite] *: REGL, PROT
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Cette exigence, générique dans une norme mondiale, s'applique dans l'Union Européenne par le respect des règles du RGPD, telles que:
+  * Conditions de licéité des traitements
+  * Droits des personnes concernées
+  * Tenue des registres de traitement (en tant que responsable de traitement et/ou que sous-traitant)
+  * Désignation d'un délégué à la protection des données
+  * Protection des données dès la conception et par défaut
+  * Études d'impact sur la vie privée
+  * Encadrement des transferts de données
+  * Notification des violations
+===== Mise en œuvre === 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

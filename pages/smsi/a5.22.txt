@@ -1,21 +1,24 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Surveillance, revue et gestion des changements des services des fournisseurs
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: FNR,ASSUR, CONT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+Vérifier régulièrement pour chaque fournisseur sensible le respect des engagements contractuels, au moins sur:
+  * Niveaux de service (SLA)
+  * Fourniture de rapports et d'audits
+  * Traitement des incidents
+  * Notification des changements dans la réalisation du service
+Enregistrer les résultats de ces évaluations, et le cas échéant des actions résultantes.
 
 ===== Mise en œuvre  =====
 FIXME

@@ -1,0 +1,29 @@
+====== Paramètres des mesures ======
+===== Statut des mesures =====
+<data #Statut>
+Initial: I
+Effective: E
+Programmée: P
+Non retenue: N
+</data>
+===== Capacités opérationnelles =====
+Cette liste est issue de la norme 27002, complétée de deux capacités synthétiques qui regroupent la sécurité des systèmes, réseaux, applications et configurations en les spécialisant selon qu'elle s'exerce en phase de production (run) ou de construction (build).
+<data #Capacite>
+Gouvernance: GOUV
+Protection des informations: PROT
+Gestion des actifs: ACT
+Assurance de sécurité de l'information: ASSUR
+Gestion des identités et des accès: IDACC
+Gestion des menaces et vulnérabilités: VULN
+Sécurité des relations fournisseurs: FNR
+Gestion des événements de sécurité de l'information: EVT
+Continuité: CONT
+Réglementation et conformité: REGL
+Sécurité physique: PHYS
+Sécurité système et réseau: SYST
+Sécurité des applications: APP
+Configuration sécurisée: CONF
+Sécurité des ressources humaines: RH
+Sécurité technique en production: PROD
+Sécurité technique en construction: DEV
+</data>

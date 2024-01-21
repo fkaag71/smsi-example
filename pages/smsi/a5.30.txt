@@ -1,0 +1,44 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Préparation des TIC pour la continuité d'activité
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: CONT
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+C'est une mesure générale pour toute organisation, que son activité soit numérique ou pas, supposée avoir fait une analyse d'impact sur l'activité pour identifier les activités prioritaires à restaurer en cas d'indisponibilité des TIC. 
+
+Elle requiert:
+  * La mise en place d'une organisation pour répondre à une panne
+  * La définition et le test de plans de continuité des TIC
+  * L'expression d'objectifs (délai de reprise, point de reprise) pour les services TIC prioritaires
+
+A fortiori dans le cas d'une activité numérique, ces points résultent de toute façon de la cartographie des actifs et du traitement des risques d'indisponibilité.
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

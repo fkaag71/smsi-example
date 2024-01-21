@@ -1,0 +1,45 @@
+~~NOCACHE~~
+====== Déclaration d'Applicabilité ======
+Ces mesures sont organisées conformément à l'annexe A de l'ISO 27001:2022.
+
+Pour la plupart, elles sont issues de cette annexe, mais des mesures spécifiques peuvent également y avoir été ajoutées.
+
+<table ?statut[enum:::param:mes#Statut] ?code@count[text] "n">
+?code is a: mes
+?code statut: ?statut
+group {
+ ?statut
+}
+</table>
+
+
+<table ?code ?label ?statut ?justification ?risk "Risques traités">
+?code is a: mes
+?code label: ?label
+?code statut: ?statut
+optional {
+?code justification: ?justification
+}
+optional {
+?code justification: ?justification
+?justification = Traitement de risques
+?risk is a: risk
+?risk scenarios: ?scn
+?scn mesures: ?code
+}
+group {
+   ?code
+   ?label
+   ?statut
+   ?justification
+   }
+sort {
+  ?code (asc)
+ }
+ui {
+ filter: text
+ Statut{
+  filter: select
+ }
+}
+</table>

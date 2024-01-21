@@ -1,0 +1,60 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Sécurité de l'information dans les accords conclus avec les fournisseurs
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: FNR
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+===== Attendus =====
+Il convient d'identifier et d'appliquer des mesures pour gérer l'accès des fournisseurs aux moyens de traitement de l'information. 
+
+Lors de l'élaboration des contrats avec les fournisseurs, les clauses suivantes doivent être envisagées:
+  * Le contexte
+    * Exigences légales et réglementaires s'appliquant aux deux parties
+  * Le système de management de la sécurité
+    * Mise en correspondance des schémas de classification des informations
+    * Gestion des incidents
+  * Les informations protégées partagées avec le fournisseur
+    * Description, classification
+    * Modalités d'accès
+  * Les règles de fonctionnement
+    * Règles d'utilisation acceptable des informations et des actifs
+    * Contacts et procédés de communication
+    * Attribution des droits
+    * Gestion des changements
+    * Utilisation et modification de sous-traitance ultérieure
+  * Les mesures de sécurité devant être mises en œuvre par le fournisseur
+  * Les mesures de reprise en cas de sinistre
+  * Les mesures de surveillance
+    * Certificats du fournisseur
+    * Possibilités et modalités d'audit
+    * Rapports du fournisseur
+  * Le processus de réversibilité en fin de contrat
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

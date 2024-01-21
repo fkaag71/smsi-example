@@ -1,0 +1,44 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Chaîne d'approvisionnement des produits et des services informatiques
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: FNR
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Concerne les produits (matériel, logiciel) ou les services (IaaS, PaaS, SaaS)
+  * Exprimer les exigences de sécurité avant d'acheter un produit ou un service
+  * Lorsque c'est une relation spécifique, contractualiser les engagements du fournisseur ([[a5.21]])
+  * Sinon, contrôler les engagements contractuels et les certifications du fournisseur
+  * Comprendre les logiciels et composants qui constituent le produit ou le service
+  * Tester le produit ou le service au regard des exigences de sécurité
+  * Gérer les obsolescences
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

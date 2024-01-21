@@ -1,0 +1,29 @@
+====== Liste des risques ======
+~~NOCACHE~~
+<table ?risk "Risque" ?label@max "Libellé" ?crit@max "Crit." ?grav@max [enum:::param:risk#gravite] "Gravité" ?vc@max [enum:::param:risk#Vraisemblance] ?vf@max [enum:::param:risk#Vraisemblance]>
+?risk is a: risk
+?risk label: ?label
+?risk gravité: ?grav [enum:::param:risk#gravite]
+optional {
+?risk scenarios: ?scn
+?scn vc: ?vc
+?scn vf: ?vf
+}
+optional {
+?risk critère [enum:::param:risk#critere]: ?crit
+}
+sort {
+ ?risk (asc)
+}
+group {
+ ?risk
+}
+ui {
+ filter: select
+ sort: default
+ Libellé {
+   filter: text
+  }
+}
+</table>
+

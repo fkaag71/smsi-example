@@ -1,0 +1,45 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Sauvegarde des informations
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: CONT
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Il convient de réaliser des copies de sauvegarde de l'information, des logiciels et des images systèmes et de les tester régulièrement. 
+  * Les sauvegardes sont planifiées
+  * Les procédures de restauration sont documentées
+  * La périodicité et la profondeur des sauvegardes correspondent aux objectifs de l'entreprise
+  * Les sauvegardes sont conservées sur un site distant et physiquement protégé
+  * Si nécessaire, les sauvegardes sont chiffrées
+  * Les restaurations sont testées périodiquement
+  * Les procédures et moyens de sauvegarde sont accessibles en cas de sinistre
+  * L'exécution correcte des processus de sauvegarde est supervisée
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

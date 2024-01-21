@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Sécurité des actifs hors des locaux
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: PHYS,ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Surveillance des matériels dans les lieux non sécurisés
+  * Protection contre les menaces environnementales (par exemple ensoleillement)
+  * Traçabilité de la détention des matériels hors des locaux
+  * Autorisation de sortie
+  * Filtres de confidentialité
+  * Possibilité de localisation et d'effacement à distance
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

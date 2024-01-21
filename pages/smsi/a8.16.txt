@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Activités de surveillance
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: EVT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Mise en place d'une supervision des ressources
+  * Analyse automatique des journaux
+  * Utilisation de systèmes de détection dédiés (IDS/IPS, EDR, etc.)
+  * Détection des situations anormales (seuils, alertes)
+  * Notification en cas de situation anormale détectée
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

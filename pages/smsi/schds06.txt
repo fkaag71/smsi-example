@@ -1,17 +1,21 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
 ~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Usages imprévus du service
 VC [enum:::param:risk#Vraisemblance]: 5
 VF [enum:::param:risk#Vraisemblance]: 5
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Usages imprévus du service, par maladresse ou malveillance.
 ===== Exemples =====
-//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+  * Interventions en autonomie par le client dégradant la sécurité de l'information, pour lui-même ou autrui:
+    *  Ouverture de tous les ports du pare-feu Internet
+    * Allocation de ressources CPU ou disque excessives, privant les autres clients
+    * Allocation de ressources insuffisantes, provoquant l'indisponibilité de l'application.
+  * Attaques malveillantes sur les interfaces mises à disposition par l'hébergeur
+    * Injection SQL, attaques de l'OWASP10
+    * Déni de service
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
 ===== Mesures effectives =====
@@ -57,11 +61,13 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source]*: USG_MLD, EXT_MID_MLV
+Vecteur[enum:::param:risk#Vecteur]: LOG
+Mode [enum:::param:risk#Mode]: USG
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
+Mesures [ref]*: a5.07, a5.08, a5.15, a5.16, a5.17, a5.18
+Mesures [ref]*: a8.03, a8.05, a8.06, a8.08, a8.14, a8.15, a8.16, a8.25, a8.26, a8.27, a8.28, a8.29, a8.32
+
 </data>
 
 

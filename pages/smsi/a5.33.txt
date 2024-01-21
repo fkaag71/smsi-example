@@ -1,0 +1,45 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Protection des enregistrements
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: REGL, ACT, PROT
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+Avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Les enregistrements sont les preuves de conformité de l'action des personnes physiques ou morales à leurs obligations légales, statutaires, réglementaires et contractuelles.
+
+Ceci inclut donc les enregistrements de fonctionnement du SMSI, mais éventuellement d'autres enregistrements (pièces comptables, déclarations sociales, registre des traitements de données personnelles, etc.)
+
+Les enregistrements doivent être préservés:
+  * de la perte, de la destruction ou de la falsification
+  * des accès ou des diffusions non autorisés
+Leur durée de conservation doit être définie et appliquée
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

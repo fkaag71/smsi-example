@@ -1,0 +1,47 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Informations secrètes d'authentification
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: IDACC
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+====== Attendus ======
+  * L'identité d'un utilisateur est vérifiée avant d'attribuer ou de réinitialiser un mot de passe
+  * Les mots de passe initiaux ou réinitialisés doivent être modifiés au premier usage
+  * Les mots de passe choisis doivent être forts
+  * Les mots de passe ne doivent pas être réutilisés pour d'autres applications
+  * Les mots de passe sont transmis par un canal sûr (pas par mail)
+  * Les mots de passe par défaut des équipements et applications sont immédiatement remplacés
+  * Les attributions et renouvellements de mots de passe sont tracés
+  * Les utilisateurs sont sensibilisés à :
+    * la confidentialité des mots de passe
+    * le changement immédiat d'un mot de passe compromis
+
+===== Mise en œuvre =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

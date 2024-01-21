@@ -1,22 +1,24 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Développement externalisé
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: APP,SYST,FNR,DEV
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
+===== Attendus =====
+  * Accords sur la propriété industrielle
+  * Accords de séquestre
+  * Droit d'audit
+  * Exigences sur les processus de développement
+  * Exigences sur les tests de sécurité : menaces à considérer, critères d'acceptation
+  * Fourniture de preuves
 ===== Mise en œuvre  =====
 FIXME
 

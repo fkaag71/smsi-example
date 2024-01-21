@@ -1,0 +1,24 @@
+~~NOCACHE~~
+~~RISKCHECK~~
+<table ?scn "Code" ?src@unique "Source" ?vect@unique "Vecteur" ?mode@unique ?label>
+?scn is a: scn
+?scn label: ?label
+optional { 
+?scn source: ?src 
+?scn vecteur: ?vect
+?scn mode: ?mode
+}
+group {
+ ?scn
+ ?label
+}
+sort {
+ ?scn(asc)
+}
+ui {
+ filter: select
+ Label {
+   filter:text
+ }
+}
+</table>

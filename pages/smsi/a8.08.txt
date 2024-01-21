@@ -1,0 +1,41 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Gestion des vulnérabilités techniques
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: VULN
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+  * Identification des actifs sensibles
+  * Veille sur les vulnérabilités de ces actifs
+  * Notification des vulnérabilités par les fournisseurs
+  * Procédure technique de tests d'intrusions appliquées périodiquement.
+  * Processus de traitement des vulnérabilités notifiées ou détectées, priorisé selon leur impact potentiel
+===== Mise en œuvre  ===== 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

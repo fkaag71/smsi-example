@@ -1,17 +1,15 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
-~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Reprise impossible après un défaut
 VC [enum:::param:risk#Vraisemblance]: 5
 VF [enum:::param:risk#Vraisemblance]: 5
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Défaillances matérielles ou logicielles, avec incapacité à respecter les engagements de continuité ou de reprise d'activité.
 ===== Exemples =====
-//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+  * Absence ou non-fonctionnement des redondances
+  * Manque de réactivité ou de pertinence dans le traitement d'un incident
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
 ===== Mesures effectives =====
@@ -57,11 +55,13 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source]: MAT,LOG
+Vecteur[enum:::param:risk#Vecteur]: ORG
+Mode [enum:::param:risk#Mode]: DEP
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
+Mesures [ref]*: a5.02, a5.09, a5.19, a5.20, a5.24, a5.25, a5.26, a5.29, a5.30, a5.37
+Mesures [ref]*: a6.01, a6.03, a6.08, a8.06, a8.14, a8.16
+
 </data>
 
 

@@ -1,21 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Privilèges d'accès
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier 
+Capacités [enum:::param:mes#Capacite] *: IDACC
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
 Avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+  * Les droits d'accès privilégiés ne sont attribués qu'aux utilisateurs pertinents.
+  * Le processus d'attribution des droits d'accès privilégiés est formalisé
+  * L'utilisation d'un mode d'accès privilégié est temporaire et limitée aux cas nécessaires
+  * Les utilisateurs savent clairement quand ils sont en mode d'accès privilégié
+  * Les identifiants privilégiés génériques (admin,root) sont à éviter
 
 ===== Mise en œuvre  =====
 FIXME

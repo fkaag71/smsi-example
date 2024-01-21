@@ -1,21 +1,24 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Surveillance des menaces
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: VULN
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+Une veille est effectuée sur les menaces:
+  * Les types d'attaquants et d'attaques
+  * Les modes opératoires
+  * Les procédés de détection et de confinement
+
+Les menaces nouvelles ou évolutives sont identifiées et les mesures de sécurité adaptées.
 
 ===== Mise en œuvre  =====
 FIXME

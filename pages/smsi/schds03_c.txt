@@ -1,17 +1,17 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
 ~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Compromission d'un flux d'information interne ou externe
 VC [enum:::param:risk#Vraisemblance]: 5
 VF [enum:::param:risk#Vraisemblance]: 5
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Compromission d'un flux d'information interne ou externe sous la responsabilité de l'hébergeur
 ===== Exemples =====
-//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+  * Flux externe avec un chiffrement faible ou inexistant
+  * Ouverture d'un port de switch en mode debug
+  * Équipement réseau incluant une backdoor
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
 ===== Mesures effectives =====
@@ -57,11 +57,12 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source]*: ADMIN_MLD, EXT_HI_MLV
+Vecteur[enum:::param:risk#Vecteur]: RSX
+Mode [enum:::param:risk#Mode]: ESP
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
+Mesures [ref]*: a5.07, a5.08, a5.14, a5.21, a5.29, a7.12, a7.13
+Mesures [ref]*:a8.07, a8.08, a8.09, a8.16, a8.20, a8.21, a8.22, a8.24, a8.27, a8.29
 </data>
 
 

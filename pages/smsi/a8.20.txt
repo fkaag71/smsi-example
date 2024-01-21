@@ -1,0 +1,44 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Sécurité des réseaux
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: SYST,PROD
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+  * La structure et la composition du réseau sont documentées
+  * Les responsabilités et les procédures de gestion des équipements réseau sont définies
+  * La classification des informations portées est identifiable
+  * L'utilisation des réseaux est surveillée
+  * La connexion des équipements aux réseaux est contrôlée (cloisonnement, identification, authentification)
+  * Les canaux d'administration des équipements réseaux sont séparés
+  * Les protocoles vulnérables sont désactivés
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

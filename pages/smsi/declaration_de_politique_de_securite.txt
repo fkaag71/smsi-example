@@ -1,0 +1,41 @@
+====== Déclaration de politique de sécurité ======
+//Cette page  permet d'élaborer la déclaration de politique de sécurité. Elle sera ensuite extraite sous la forme d'un document bureautique pouvant être partagé avec les parties prenantes.//
+===== Objet =====
+===== Engagement de la direction =====
+===== Contexte =====
+==== Domaine d'application ====
+=== Activités du domaine d'application ===
+=== Informations à protéger ===
+=== Périmètre physique ===
+==== Enjeux externes et internes ====
+=== Enjeux externes ===
+=== Enjeux internes ===
+==== Attentes des parties intéressées ====
+===== Gouvernance de la sécurité de l'information =====
+===== Gestion des risques =====
+==== Classification de l'information ====
+==== Événements redoutés ====
+==== Appréciation du risque ====
+==== Traitement des risques ====
+===== Gestion des incidents de sécurité =====
+===== Objectifs de sécurité de l'information =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

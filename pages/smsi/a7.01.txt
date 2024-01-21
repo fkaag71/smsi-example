@@ -1,23 +1,24 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Périmètres de sécurité physique
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: PHYS
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Définition de périmètres de sécurité et de leurs niveaux de sécurité
+  * Localisation des différentes classes données cohérente avec ces niveaux de sécurité
+  * Absence d'accès incontrôlables
+  * Surveillance des issues de secours
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

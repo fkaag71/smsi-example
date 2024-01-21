@@ -1,0 +1,60 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Politiques de sécurité de l'information
+Statut [enum:::Param:mes#Statut]: I
+Justification: Conformité (5.2)
+Capacités [enum:::param:mes#Capacite] *: GOUV
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+Avancement:
+Echéance:
+</data>
+===== Attendus =====
+La politique de sécurité :
+  * Est approuvée par la direction
+  * Comporte l'engagement de la direction à mettre en œuvre et améliorer continûment le SMSI
+  * Définit des objectifs de sécurité prenant en compte:
+    * La stratégie de l'organisation et les exigences métiers
+    * Les réglementations, législations et contrats
+    * Les résultats de l'analyse des risques
+  * Attribue les responsabilités pour la gestion de la sécurité de l'information
+  * Définit les règles de gestion des dérogations et exceptions
+
+Elle est complétée de politiques thématiques telles que:
+  * Classification de l'information
+  * Gestion des actifs
+  * Gestion des incidents
+  * Gestion des vulnérabilités
+  * Contrôle d'accès
+  * Sécurité physique et environnementale
+  * Sécurité des réseaux
+  * Sauvegarde
+  * Transfert des informations
+  * Configuration et gestion des terminaux des utilisateurs
+  * Cryptographie et gestion des clés
+  * Développement sécurisé
+Elle est révisée régulièrement sur la base des évolutions de contexte et des incidents de sécurité.
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

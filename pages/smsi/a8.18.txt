@@ -1,23 +1,24 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Utilisation de programmes utilitaires à privilèges
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: SYST,CONF,APP,PROD
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+Pour les programmes permettant une élévation de privilèges:
+  * limiter les utilisateurs y ayant accès
+  * authentifier les utilisateurs lors de leur utilisation
+  * journaliser leur utilisation
+
+===== Mise en œuvre  ===== 
 FIXME
 
 ===== Preuves =====

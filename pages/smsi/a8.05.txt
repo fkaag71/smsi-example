@@ -1,21 +1,26 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Authentification sécurisée
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: IDACC
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+  * Techniques d'authentification appropriées à la classification des informations
+  * Authentification double facteur pour les informations sensibles
+  * Opacité tant que l'authentification n'est pas faite
+  * Protection contre les attaques en brute force (captcha, blacklist)
+  * Journalisation des accès
+  * Alerte en cas d'échecs de connexion
+  * Affichage de l'heure de dernière connexion
+  * Fermeture des sessions inactives
 
 ===== Mise en œuvre  =====
 FIXME

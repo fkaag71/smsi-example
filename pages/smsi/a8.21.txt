@@ -1,0 +1,43 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Sécurité des services réseau
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: SYST,PROD
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Les services réseaux comprennent les connexions simples ou à bande passante garantie, les pare-feux administrés, les réseaux privés virtuels (VPN, MPLS), les systèmes opérés de détection d'intrusion (IDS/IPS).
+
+Pour ces services
+  * Les niveaux de service attendus (SLA) sont exprimés
+  * Les fournisseurs peuvent être audités et/ou fournir des certificats pour le respect des niveaux de service
+  * Lorsque nécessaire, les accès au réseau sont soumis à des processus d'authentification et d'autorisation.
+
+===== Mise en œuvre  ===== 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

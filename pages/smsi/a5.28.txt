@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Collecte de preuves
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : Conformité (9.1 et 8.3)
+Capacités [enum:::param:mes#Capacite] *: EVT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+Afin de permettre des actions ultérieures (légales, assurantielles, disciplinaires, etc)
+  * Collecter les preuves pendant le déroulement de l'incident :
+    * permettant de remonter aux causes ou
+    * justifiant des décisions de traitement prises
+  * Garantir leur conservation et leur intégrité
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

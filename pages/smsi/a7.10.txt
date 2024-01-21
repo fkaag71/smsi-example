@@ -1,23 +1,26 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Supports de stockage
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: PHYS,ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Une politique sur les supports amovibles est rédigée et communiquée
+  * Les supports amovibles sont tracés lorsqu'ils sortent de l'organisation
+  * Chiffrement lorsque cela est utile
+  * Stockage en lieu sûr
+  * Pas d'utilisation comme un stockage pérenne, réplication des données importantes
+  * Effacement ou destruction sécurisés en fin d'usage
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

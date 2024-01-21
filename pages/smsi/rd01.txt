@@ -1,0 +1,33 @@
+~~NOCACHE~~
+<data risk>
+Label: Des DCSP sont indisponibles
+Gravité [enum:::param:risk#gravite]: 3
+</data>
+====== Atteinte ======
+Les données concernant un patient sont indisponibles au moment de leur usage.
+====== Impacts possibles ======
+Dans le pire des cas, cet événement peut présenter un risque pour le patient, mais atténué par la compétence du professionnel. On reste donc à une gravité Majeure plutôt que Critique.
+====== Scénarios liés ======
+<table ?scn "SCN" ?s_label "Libellé" ?v0 "Initial" ?vc "Courant" ?vf "Futur">
+[[]] scenarios: ?scn
+?scn v0: ?v0 [enum:::param:risk#Vraisemblance]
+?scn vc: ?vc [enum:::param:risk#Vraisemblance]
+?scn vf: ?vf [enum:::param:risk#Vraisemblance]
+?scn label: ?s_label
+sort {
+ ?vc(desc) 
+ ?vf(desc)
+}
+ui {
+  sort: default
+  filter: select
+  Libellé{
+    filter: text
+  }
+}
+</table>
+==== Complément de données ====
+<data>
+Critère [enum:::param:risk#Critere]: D
+Scenarios [page]*: schds01, schds03_d, schds03_i, schds04a, schds05,schds06,schds07, schds08
+</data>

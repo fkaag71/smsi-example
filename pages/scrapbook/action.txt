@@ -1,13 +1,15 @@
 ====== Modèle de page pour une action ======
-//FIXME Supprimer le titre//
+~~NODATA~~
+//FIXME Supprimer ces trois premières lignes//
 
 ~~NOCACHE~~
 <data action>
 code[page]: [[]]
 label: FIXME
-pilote: FIXME
-statut [enum::param#actstatut]: E
-avancement: 0
+Pilote [enum:::param:div#Person]: NA
+Statut action [enum:::param:act#ActStatut]: B
+Avancement: 0
+Echéance:
 </data>
 <table ?evt ?levt "Origine">
 ?evt is a: event

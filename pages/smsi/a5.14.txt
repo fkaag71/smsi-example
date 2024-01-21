@@ -1,0 +1,42 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Transferts d'information
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: ACT, PROT
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+===== Attendus =====
+Les transferts d'information couvrent les transferts électroniques, les transferts de supports physiques, les transferts verbaux, tant au sein de l'organisation qu'avec des tiers.
+
+Dans tous les cas des mesures de sécurité sont prises pour:
+  * informer les parties au transfert de la classification de l'information
+  * éviter l'interception ou l'altération de l'information transférée
+  * assurer l'identification et la traçabilité des parties au transfert
+  * ne recourir qu'à des canaux ou des intermédiaires fiables
+===== Mise en œuvre  ===== 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

@@ -1,0 +1,42 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Sécurité de l'information pour les services en nuage
+Statut [enum:::Param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: FNR
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Identique à la sécurité de l'information dans les accords conclus avec les fournisseurs ([[a5.21]]), avec quelques points de vigilance particuliers:
+  * La répartition des responsabilités en matière de sécurité entre le fournisseur et l'organisation (attribution de droits, sauvegardes, modifications des configurations, etc.)
+  * La réversibilité en fin de contrat
+  * La transparence dans les changements apportés
+  * Les canaux de communication en cas d'incident de sécurité
+
+===== Mise en œuvre =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

@@ -1,21 +1,21 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Cloisonnement des réseaux
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: SYST,PROD
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+  * Les réseaux sont fractionnés selon leur criticité et séparés d'Internet
+  * Les possibilités de passage d'un réseau à l'autre sont restreintes au juste nécessaire
+  * Le réseaux sans fil sont assimilés à des réseaux externes
 
 ===== Mise en œuvre  =====
 FIXME

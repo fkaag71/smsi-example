@@ -1,23 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Sécurité de l'information durant une perturbation
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: CONT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+Les plans de continuité d'activité prennent en compte le maintien de la sécurité:
+  * soit avec les mêmes solutions qu'en fonctionnement normal
+  * soit avec des mesures compensatoires
+
+=====Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

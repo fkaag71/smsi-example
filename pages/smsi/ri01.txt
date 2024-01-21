@@ -1,0 +1,34 @@
+~~NOCACHE~~
+<data risk>
+Label: Des DSCP sont altérées ou corrompues
+Gravité [enum:::param:risk#gravite]: 4
+</data>
+====== Atteinte ======
+FIXME
+====== Impacts possibles ======
+Peut conduire à une prise en charge erronée, avec des conséquences critiques pour la personne concernée.
+
+====== Scénarios liés ======
+<table ?scn "SCN" ?s_label "Libellé" ?v0 "Initial" ?vc "Courant" ?vf "Futur">
+[[]] scenarios: ?scn
+?scn v0: ?v0 [enum:::param:risk#Vraisemblance]
+?scn vc: ?vc [enum:::param:risk#Vraisemblance]
+?scn vf: ?vf [enum:::param:risk#Vraisemblance]
+?scn label: ?s_label
+sort {
+ ?vc(desc) 
+ ?vf(desc)
+}
+ui {
+  sort: default
+  filter: select
+  Libellé{
+    filter: text
+  }
+}
+</table>
+==== Complément de données ====
+<data>
+Critère [enum:::param:risk#Critere]: I
+Scenarios [page]*: schds04a, schds04c
+</data>

@@ -1,0 +1,46 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Services généraux
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: PHYS
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Les matériels sont protégés des coupures de courant et autres perturbations dure à une défaillance.
+
+Les services généraux (électricité, alimentation en eau, gaz, évacuation des eaux usées, ventilation et climatisation) doivent : 
+  * être conformes aux spécifications du fabricant du matériel et aux exigences légales locales
+  * faire l'objet d'une évaluation régulière pour vérifier leur capacité à répondre à la croissance de
+  * l'organisation et aux interactions avec les autres services généraux 
+  * soient examinés et testés de manière régulière pour s'assurer de leur fonctionnement correct 
+  * soient équipés si nécessaire d'alarmes et de détection de dysfonctionnement 
+  * disposent si nécessaire d'alimentations multiples sur les réseaux physiques d'acheminement 
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

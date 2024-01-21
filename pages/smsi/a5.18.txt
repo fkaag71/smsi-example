@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Droits d'accès
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: IDACC
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Les droits d'accès sont attribués et gérés conformément à une politique écrite
+  * Ils sont attribués après la validation d'un responsable de l'information accédée
+  * Ils sont supprimés lorsqu'ils ne sont plus nécessaires
+  * Les accès physiques et logiques attribués à chaque utilisateur sont consultables
+  * Les attributions et modifications de droits sont tracées
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

@@ -1,23 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Installation de logiciels sur des systèmes opérationnels
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier 
+Capacités [enum:::param:mes#Capacite] *: CONF,APP,PROD
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Les mises à jour sont effectuées par des personnels formés, après autorisation
+  * Seules des configurations approuvées sont installées, y compris pour les composants externes (librairies, midllewares)
+  * Un processus de retour en arrière est défini et appliqué
+
+===== Mise en œuvre  ===== 
 FIXME
 
 ===== Preuves =====

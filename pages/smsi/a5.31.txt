@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Exigences légales, statutaires, réglementaires et contractuelles
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: REGL
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+  * Identification de toutes les législations et réglementations pertinentes, y compris en cas d'activité dans d'autres pays.
+  * Respect des restrictions d'usage ou d'export sur les moyens cryptographiques
+  * Identification des exigences contractuelles, clients ou fournisseurs, portant sur la sécurité
+  * Prise en compte dans les objectifs et les mesures de sécurité
+
+
+===== Mise en œuvre   =====
 FIXME
 
 ===== Preuves =====

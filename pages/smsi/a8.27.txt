@@ -1,23 +1,27 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Principes d'ingénierie et d'architecture système sécurisée
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: APP,SYST,DEV
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+Prise en compte de la sécurité dans l'architecture du système:
+  * Défense en profondeur
+  * Sécurité par défaut
+  * Exigences de moyens de sécurité spécifiques à certains processus
+  * Confiance zéro
+  * Signatures numériques
+  * etc.
+
+===== Mise en œuvre  ===== 
 FIXME
 
 ===== Preuves =====

@@ -1,0 +1,40 @@
+~~NOCACHE~~
+<data mes action>
+Code[page]: [[]]
+Label: Gestion des identités
+Statut [enum:::param:mes#Statut]: P
+Justification: Traitement de risques
+Capacités [enum:::param:mes#Capacite] *: IDACC
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]: B
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+===== Attendus =====
+  * Les identifiants d'accès sont personnels et univoques
+  * Si des identifiants collectifs sont néanmoins inévitables, ils font l'objet d'un encadrement renforcé
+  * Les identifiants sont désactivés lorsqu'ils ne sont plus nécessaires
+  * Les événements sur l'utilisation et la gestion des identifiants sont tracés
+
+===== Mise en œuvre =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

@@ -1,0 +1,42 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Restriction d'accès aux informations
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: IDACC
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+  * Établissement de droits d'accès selon les population d'utilisateurs
+  * Lorsque nécessaire, contrôle renforcé pour l'accès à des informations sensibles
+  * Lorsque nécessaire, droits d'accès limités dans le temps
+  * Lorsque nécessaire, traçabilité des accès aux informations sensibles
+  * Lorsque nécessaire, restriction d'usage des informations (pas de téléchargement, d'impression)
+
+===== Mise en œuvre  ==== 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

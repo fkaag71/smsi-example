@@ -1,0 +1,24 @@
+====== Gestion des informations documentées ======
+===== Référentiel documentaire =====
+Le système documentaire propre au SMSI est composé:
+  * Du présent site, porteur de :
+    * la politique de sécurité
+    * l'analyse et le plan de traitement des risques
+    * les fiches de suivi des actions
+    * les enregistrements du SMSI
+  * FIXME - A compléter (ticketing, CMDB, dépôts, etc)
+===== Validation et diffusion des politiques =====
+Les politiques générales et thématiques sont mises à disposition via le présent site:
+  * [[Politique de sécurité]]
+  * [[Procédures de fonctionnement]]
+
+Seuls les membres du Comité de pilotage ont un droit d'écriture sur ces pages.
+
+Une page modifiée passe en état brouillon, et n'est visible que des membres du COPIL SMSI jusqu'à ce qu'elle soit approuvée. Les utilisateurs en lecture seule voient la dernière version approuvée.
+
+Les publications sont datées et les écarts entre versions tracés grâce à la gestion d'historique du Wiki. Toutes les versions publiées antérieures sont conservées.
+
+FIXME - Sauvegarde des informations documentées.
+
+
+

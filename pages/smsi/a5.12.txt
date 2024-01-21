@@ -1,23 +1,25 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Classification des informations
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *:PROT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
-===== Mise en œuvre  =====
+===== Attendus =====
+L'information doit être classée selon ses besoins en confidentialité/intégrité/disponibilité
+  * La classification est formalisée et communiquée
+  * Les biens supports sont classés en cohérence avec l'information qu'ils portent/traitent
+  * Les propriétaires de l'information sont responsables de sa classification
+
+
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

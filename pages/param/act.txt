@@ -1,0 +1,11 @@
+====== Paramètres de la gestion des actions et événements ======
+
+===== Actions =====
+==== Statut des actions ====
+<data #ActStatut>
+En cours: E
+Suspendue: S
+Terminée: T
+Clôturée: C
+Brouillon: B
+</data>

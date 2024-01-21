@@ -1,0 +1,41 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Informations relatives aux tests
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: PROT 
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+  * Contrôle d'accès aux environnements de test cohérent avec les informations manipulées
+  * Anonymisation/Pseudonymisation en cas de réutilisation de données de production
+  * Formalisation et enregistrement des opérations de création de données de test à partir de données de production
+  * Si des informations de production doivent être utilisées (par exemple, lors d'assistance aux utilisateurs), confinement et effacement en fin d'usage.
+
+===== Mise en œuvre  ===== 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

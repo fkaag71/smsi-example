@@ -1,17 +1,19 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
 ~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Défaut dans la traçabilité et imputabilité des accès
 VC [enum:::param:risk#Vraisemblance]: 5
-VF [enum:::param:risk#Vraisemblance]: 5
+VF [enum:::param:risk#Vraisemblance]: 4
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Défaut dans la traçabilité et imputabilité des accès.
 ===== Exemples =====
-//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+  * Attribution de comptes génériques
+  * Accès possibles sans être tracés
+  * Possibilité d'effacement des traces, avec ou sans collusion
+  * Durée de conservation des traces non maîtrisées
+  * Traces inexploitables (diffuses, incomplètes)
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
 ===== Mesures effectives =====
@@ -57,11 +59,13 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source]: ADMIN_MLD, ADMIN_MLV, MAT
+Vecteur[enum:::param:risk#Vecteur]: CAN_USG, RSX, LOG
+Mode [enum:::param:risk#Mode]: MOD, USG
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
+Mesures [ref]*: a5.03, a5.08, a5.10, a5.15, a5.16, a5.19, a5.33
+Mesures [ref]*: a7.02, a7.03, a7.06, a7.08, a8.05, a8.15, a8.16, a8.24, a8.29, a8.31, a8.33, a8.34
+
 </data>
 
 

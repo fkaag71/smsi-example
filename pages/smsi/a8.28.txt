@@ -1,22 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Codage sécurisé
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: APP,SYST,DEV
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
 
+ ===== Attendus =====
+  * Formation des développeurs
+  * Utilisation de frameworks éprouvés et maintenus
+  * Normes de codage
+  * Analyse statique avant libération
+  * Surveillance de l'obsolescence des composants logiciels
 ===== Mise en œuvre  =====
 FIXME
 

@@ -1,21 +1,21 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Fonctions et responsabilités liées à la sécurité de l'information
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification: Conformité (5.3)
+Capacités [enum:::param:mes#Capacite] *: GOUV
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
 ===== Attendus =====
-FIXME
+Les responsabilités sont attribuées pour:
+  * Le maintien en condition de sécurité des actifs (propriétaires des actifs)
+  * Le fonctionnement du SMSI et sa restitution lors des revues de direction
+  * L'acceptation du traitement des risques et des risques résiduels (propriétaires des risques)
 
 ===== Mise en œuvre  =====
 FIXME

@@ -1,7 +1,0 @@
-====== SMSI DEMO ======
-  * [[:man:Guide d'utilisation]]
-  * [[Exigences 27001]]
-  * [[Exigences HDS]]
-  * [[Politique de sécurité]]
-  * [[declaration_d_applicabilite|Déclaration d'applicabilité]]
-  * [[Analyse des risques]]

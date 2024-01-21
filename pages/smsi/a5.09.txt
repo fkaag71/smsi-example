@@ -1,21 +1,23 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Inventaire de l'information et des actifs associés
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
+
 ===== Attendus =====
-FIXME
+  * Inventaire des informations
+  * Inventaire et localisation des actifs porteurs d'informations
+  * Assignation d'un propriétaire aux actifs (chargé de leur entretien)
+  * Procédure de tenue à jour de l'inventaire
+  * Classification des actifs en fonction de l'information qu'ils portent
 
 ===== Mise en œuvre  =====
 FIXME

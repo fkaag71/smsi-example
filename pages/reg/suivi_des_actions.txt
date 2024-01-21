@@ -1,0 +1,88 @@
+====== Suivi des actions ======
+~~NOCACHE~~
+===== Brouillons à finaliser =====
+<table ?act ?libellé ?pilote [enum:::param:div#person] ?echeance "Echéance">
+?act is a: action
+?act label: ?libellé
+?act statut action: B
+optional {
+?act pilote : ?pilote
+?act échéance : ?echeance
+}
+ui {
+ filter: select
+ Libellé {
+   filter: text
+  }
+}
+</table>
+
+
+===== Actions en cours =====
+<table ?act ?libellé ?pilote [enum:::param:div#person] ?Echéance ?avancement>
+?act is a: action
+?act label: ?libellé
+optional {
+?act avancement: ?avancement
+?act pilote: ?pilote
+?act echéance: ?Echéance
+}
+?act statut action: ?s 
+?s !=P
+?s !=T
+?s !=C
+?s !=B
+ui {
+ filter: select
+ sort: default
+ Libellé {
+   filter: text
+  }
+}
+sort {
+ ?Echéance (asc)
+}
+</table>
+
+===== Actions terminées à évaluer =====
+<table ?act ?libellé>
+?act is a: action
+?act label: ?libellé
+?act statut action: T
+</table>
+
+===== Actions clôturées =====
+// A renvoyer dans une page secondaire quand elles seront nombreuses//
+<list ?act ?libellé>
+?act is a: action
+?act label: ?libellé
+?act statut action: C
+</list>
+
+===== Statistiques =====
+==== Actions par statut ====
+<table ?statut [enum:::param:act#ActStatut] ?act@count[integer] "Nombre d'actions">
+?act is a: action
+?act statut action: ?statut
+group {
+ ?statut
+}
+</table>
+==== Actions par catégorie de déclencheur ====
+<table ?cat[enum:::param:act#EvtCat] "Catégorie" ?act@count[integer] "Nombre d'actions">
+union {
+{
+?evt is a: event
+?evt actions: ?act
+?evt catégorie: ?cat
+}
+{
+-- Les mesures programmées sont des actions sans déclencheur
+?act is a: action
+?act is a: mes
+}
+}
+group {
+  ?cat
+}
+</table>

@@ -1,17 +1,18 @@
-====== Modèle de page pour un scénario ======
-~~NODATA~~
-//FIXME Supprimer ces trois premières lignes//
 ~~NOCACHE~~
 <data scn>
-Label: FIXME
+Label: Défaut de maîtrise dans l'attribution, modification et retrait des droits d'accès
 VC [enum:::param:risk#Vraisemblance]: 5
-VF [enum:::param:risk#Vraisemblance]: 5
+VF [enum:::param:risk#Vraisemblance]: 4
 </data>
 ~~RISKCHECK~~
 ====== Description ======
-//FIXME - Compléter ici si le label ne suffit pas à caractériser le scénario//
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Défaut de maîtrise dans l'attribution, modification et retrait des droits d'accès
 ===== Exemples =====
-//FIXME - Les exemples permettent de mieux illustrer un scénario générique//
+  * Ouverture d'accès sur simple appel téléphonique, arnaque au président
+  * Maintien des accès après un départ
+  * Attribution de droits superflus
+  * Révocation à tort de droits d'accès
 ===== Justification des vraisemblances =====
 //FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
 ===== Mesures effectives =====
@@ -57,11 +58,13 @@ sort {
 <data>
 -- Cet auto-lien est nécessaire pour certaines requêtes
 me[page]: [[]]
-Source [enum:::param:risk#Source]: 
-Vecteur[enum:::param:risk#Vecteur]: 
-Mode [enum:::param:risk#Mode]:
+Source [enum:::param:risk#Source]: ADMIN_MLD
+Vecteur[enum:::param:risk#Vecteur]: CAN_USG, LOG
+Mode [enum:::param:risk#Mode]: MOD
 V0 [enum:::param:risk#Vraisemblance]: 5
-Mesures [ref]*: 
+Mesures [ref]*: a5.03, a5.15, a5.16, a5.18, a5.29, a5.37, a6.03
+Mesures [ref]*: a7.02, a8.02, a8.03, a8.18, a8.32
+
 </data>
 
 

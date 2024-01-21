@@ -1,0 +1,47 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Gestion des changements
+Statut [enum:::param:mes#Statut]: I
+Justification: A justifier
+Capacités [enum:::param:mes#Capacite] *: APP,SYST,PROD,DEV
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Les changements importants ou l'ajout de nouveaux systèmes font l'objet d'un processus formel de documentation, de test, de contrôle qualité et de mise en œuvre:
+  * Planification préalable, avec l'évaluation des impacts potentiels
+  * Autorisation par un responsable
+  * Communication aux parties impactées avant le changement
+  * Tests préalables
+  * Procédures de contrôle
+  * Procédure de repli
+  * Mise à jour des procédures d'exploitation
+  * Documentation de la planification et de l'exécution du changement
+
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

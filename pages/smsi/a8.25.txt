@@ -1,0 +1,46 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Cycle de vie de développement sécurisé
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: APP,SYST,DEV
+Inclut [page] *: a5.08,a8.04,a8.09,a8.27,a8.28,a8.29,a8.31,a8.32
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+Avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+C'est une mesure chapeau pour un ensemble de mesures plus ciblées: 
+  * Séparation des environnements de test, de développement et de production ([[a8.31]])
+  * Méthodes de développement sécurisé ([[a8.27]],[[a8.28]])
+  * Sécurité dans les projets ([[a5.08]])
+  * Protection des codes sources ([[a8.04]])
+  * Tests de sécurité ([[a8.29]])
+  * Contrôle des versions ([[a8.32]])
+  * Sécurisation des développements externalisés([[a8.30]])
+
+===== Mise en œuvre  =====
+Se reporter aux mesures référencées.
+
+===== Preuves =====
+Se reporter aux mesures référencées.
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

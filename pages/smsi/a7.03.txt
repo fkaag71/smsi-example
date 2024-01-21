@@ -1,23 +1,22 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Sécurisation des bureaux, des salles et des équipements
 Statut [enum:::param:mes#Statut]: I
 Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Capacités [enum:::param:mes#Capacite] *: PHYS,ACT
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
-
-===== Mise en œuvre  =====
+====== Attendus ======
+  * Pas d'accès public aux lieux sensibles
+  * Bâtiment neutre
+  * Pas de fenêtres
+  * Pas d'affichage des lieux sensibles dans les annuaires, plans publics, etc.
+===== Mise en œuvre =====
 FIXME
 
 ===== Preuves =====

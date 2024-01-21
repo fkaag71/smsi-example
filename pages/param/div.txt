@@ -1,0 +1,21 @@
+====== Paramètres divers ======
+===== Pilotes des actions =====
+<data #Person>
+Non assigné: NA
+</data>
+
+===== Ecarts constatés en audit =====
+<data #EctCat>
+Non conformité majeure :NCMAJ 
+Non conformité mineure :NCMIN
+Remarque : REM 
+Opportunité :OPPO
+</data>
+
+===== Evaluation des fournisseurs ======
+<data #EvalFrs>
+Très satisfaisant: 3
+Convenable: 2
+Insuffisant: 1
+</data>
+

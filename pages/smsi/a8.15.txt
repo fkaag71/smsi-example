@@ -1,0 +1,48 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Journalisation
+Statut [enum:::param:mes#Statut]: I
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: EVT
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+  * Les objectifs des journaux sont établis
+  * Les journaux permettent d'identifier les actions effectuées, les auteurs, le lieu d'origine de l'action
+  * La journalisation couvre au moins:
+     * Les accès aux systèmes, réussis ou échoués
+     * Les changements de configurations
+     * Les élévations de privilèges
+     * L'activation ou la désactivation de systèmes de sécurité
+     * La création, modification ou suppression d'identités
+     * Le contrôle d'accès physique
+   * Les journaux sont protégés contre la falsification ou l'effacement
+   * Les journaux sont analysés pour détecter les traces de comportements anormaux
+
+===== Mise en œuvre  ===== 
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+

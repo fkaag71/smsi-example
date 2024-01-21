@@ -1,21 +1,21 @@
-====== Modèle de page pour une mesure ======
-~~NODATA~~
-//FIXME  Supprimer ces trois premières lignes //
 ~~NOCACHE~~
 <data mes>
 Code[page]: [[]]
-Label: FIXME
+Label: Accès au code source
 Statut [enum:::param:mes#Statut]: I
-Justification: A justifier
-Capacités [enum:::param:mes#Capacite] *: 
+Justification : A justifier
+Capacités [enum:::param:mes#Capacite] *: IDACC,APP,CONF,DEV
 -- Attributs de l'action implicite
 Statut action [enum:::param:act#ActStatut]:
 Pilote [enum:::param:div#person]:
-Avancement:
+avancement:
 Echéance:
 </data>
-===== Attendus =====
-FIXME
+
+===== Attendus=====
+  * L'accès en écriture aux codes sources est restreint au juste nécessaire dans l'organisation
+  * Les modifications des codes sources sont tracées
+  * L'accès en lecture peut être protégé selon les besoins de propriété industrielle
 
 ===== Mise en œuvre  =====
 FIXME

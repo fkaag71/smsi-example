@@ -1,0 +1,75 @@
+~~NOCACHE~~
+<data scn>
+Label: Défaillance de la maîtrise des interventions
+VC [enum:::param:risk#Vraisemblance]: 5
+VF [enum:::param:risk#Vraisemblance]: 5
+</data>
+~~RISKCHECK~~
+====== Description ======
+Ce scénario correspond dans l'exigence [[exigences_hds#EXI 05]] du référentiel HDS à l'événement: \\
+Défaillance de la maîtrise des interventions.
+
+Il s'agit ici des interventions effectuées par des personnels sous le contrôle de l'hébergeur. Les éventuelles interventions en autonomie du client (pour des offres qui le permettent) sont traitées dans le scénario [[schds06]] - Usages imprévus du service, par maladresse ou par malveillance.
+
+===== Exemples =====
+  * Intervention par un personnel non qualifié
+  * Restauration non sollicitée d'une sauvegarde intégrale sur un système en production
+  * Effets de bord d'une intervention sur un autre client que le demandeur
+  * Mise à niveau du système vers une version incompatible avec l'application
+  * Échec en cours d'une intervention sans possibilité de retour en arrière
+===== Justification des vraisemblances =====
+//FIXME - Compte tenu des mesures effectives (VC) ou programmées (VF)//
+===== Mesures effectives =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: E
+sort {
+  ?mes(asc)
+  }
+</table>
+===== Mesures programmées =====
+<table ?mes "Mesure" ?label "Libellé">
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: P
+sort {
+  ?mes(asc)
+  }
+</table>
+===== Autres mesures possibles =====
+<table ?mes "Mesure" ?label "Libellé" ?statut[enum:::param:mes#Statut] >
+[[]] mesures: ?mes
+?mes label: ?label
+?mes statut: ?statut
+?statut != E
+?statut != P
+sort {
+  ?mes(asc)
+  }
+</table>
+====== Risques liés ======
+<table ?risk "Risque" ?label "Libellé">
+?risk is a: risk
+[[]] me: ?me
+?risk scenarios: ?me
+?risk label: ?label
+sort {
+  ?risk(asc)
+  }
+</table>
+==== Complément de données ====
+<data>
+-- Cet auto-lien est nécessaire pour certaines requêtes
+me[page]: [[]]
+Source [enum:::param:risk#Source]: ADMIN_MLD, SUB_MLD
+Vecteur[enum:::param:risk#Vecteur]:  MAT,LOG,RSX
+Mode [enum:::param:risk#Mode]: MOD
+V0 [enum:::param:risk#Vraisemblance]: 5
+Mesures [ref]*: a5.08, a5.18, a5.19, a5.22, a5.37, a6.03, a6.04, a7.06, a7.08, a7.13
+Mesures [ref]*: a8.02, a8.09, a8.14, a8.15, a8.16, a8.18, a8.19, a8.22, a8.31, a8.32
+
+</data>
+
+
+

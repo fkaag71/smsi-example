@@ -1,0 +1,45 @@
+~~NOCACHE~~
+<data mes>
+Code[page]: [[]]
+Label: Revue indépendante de la sécurité de l'information
+Statut [enum:::param:mes#Statut]: I
+Justification : Conformité (9.2)
+Capacités [enum:::param:mes#Capacite] *: ASSUR
+-- Attributs de l'action implicite
+Statut action [enum:::param:act#ActStatut]:
+Pilote [enum:::param:div#person]:
+avancement:
+Echéance:
+</data>
+
+===== Attendus =====
+Des audits internes de fonctionnement du SMSI doivent être menés:
+  * périodiquement (en général annuellement)
+  * lorsque des changements significatifs se produisent (nouvelles activités ou changements majeurs)
+
+La compétence et l'indépendance des auditeurs doivent être démontrés. Les rapports d'audit doivent être communiqués à la direction et conservés.
+
+Les non-conformités doivent déclencher des actions correctives.
+
+
+===== Mise en œuvre  =====
+FIXME
+
+===== Preuves =====
+FIXME
+
+===== Scénarios liés =====
+<table ?scn "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?scn label: ?label 
+</table>
+
+===== Risques traités =====
+<table ?risk "#" ?label "Libellé">
+[[]] Code: ?me
+?scn mesures: ?me
+?risk scenarios: ?scn
+?risk label: ?label
+</table>
+
